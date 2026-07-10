@@ -1,78 +1,78 @@
 /* === Enshrouded Guides Shared Styles === */
 
 :root {
-  --bg: #faf8f6;
-  --surface: #ffffff;
-  --border: #d8d4cc;
-  --text: #2c2824;
-  --text2: #5f5b54;
-  --text3: #8a867c;
-  --muted-bg: #f5f3ed;
-  --hero-bg1: #f3eafa;
-  --hero-bg2: #fef3e0;
-  --green: #6b2fa0;
-  --green-l: #f3eafa;
-  --green-d: #3d1a5c;
-  --gold: #d4780a;
-  --gold-l: #fef3e0;
-  --blue: #185fa5;
-  --blue-l: #e6f1fb;
-  --blue-d: #0c447c;
-  --red: #a32d2d;
-  --red-l: #fcebeb;
-  --purple: #6b2fa0;
-  --purple-l: #f3eafa;
-  --nav-bg: #ffffff;
-  --footer-bg: #2c2824;
-  --footer-text: #a8a498;
-  --footer-link: #c0a8e0;
-  --topbar-bg: #2c2824;
-  --topbar-text: #e8e4d8;
+  --bg: #1a1a18;
+  --surface: #252522;
+  --border: #3d3d38;
+  --text: #e0dcd0;
+  --text2: #a8a498;
+  --text3: #7a7668;
+  --muted-bg: #2d2d28;
+  --hero-bg1: #201a2a;
+  --hero-bg2: #2a2018;
+  --green: #9b6fd4;
+  --green-l: #201a2a;
+  --green-d: #c0a8e0;
+  --gold: #e0a84a;
+  --gold-l: #2a2018;
+  --blue: #4a90d9;
+  --blue-l: #1a2432;
+  --blue-d: #a0c8f0;
+  --red: #d94a4a;
+  --red-l: #2a1818;
+  --purple: #9b6fd4;
+  --purple-l: #201a2a;
+  --nav-bg: #252522;
+  --footer-bg: #111110;
+  --footer-text: #7a7668;
+  --footer-link: #9b6fd4;
+  --topbar-bg: #111110;
+  --topbar-text: #a8a498;
   --radius: 10px;
   --radius-sm: 6px;
-  --table-hover: #faf8f0;
-  --thead-bg: #f5f3ed;
-  --copy-bg: #eaf3de;
-  --copy-hover: #d4e8b8;
-  --toggle-bg: #f5f3ed;
-  --toggle-border: #d8d4c8;
+  --table-hover: #2d2d28;
+  --thead-bg: #2d2d28;
+  --copy-bg: #201a2a;
+  --copy-hover: #2a1a3a;
+  --toggle-bg: #2d2d28;
+  --toggle-border: #3d3d38;
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   :root {
-    --bg: #1a1a18;
-    --surface: #252522;
-    --border: #3d3d38;
-    --text: #e0dcd0;
-    --text2: #a8a498;
-    --text3: #7a7668;
-    --muted-bg: #2d2d28;
-    --hero-bg1: #201a2a;
-    --hero-bg2: #2a2018;
-    --green: #9b6fd4;
-    --green-l: #201a2a;
-    --green-d: #c0a8e0;
-    --gold: #e0a84a;
-    --gold-l: #2a2018;
-    --blue: #4a90d9;
-    --blue-l: #1a2432;
-    --blue-d: #a0c8f0;
-    --red: #d94a4a;
-    --red-l: #2a1818;
-    --purple: #9b6fd4;
-    --purple-l: #201a2a;
-    --nav-bg: #252522;
-    --footer-bg: #111110;
-    --footer-text: #7a7668;
-    --footer-link: #9b6fd4;
-    --topbar-bg: #111110;
-    --topbar-text: #a8a498;
-    --table-hover: #2d2d28;
-    --thead-bg: #2d2d28;
-    --copy-bg: #1e2a14;
-    --copy-hover: #253a16;
-    --toggle-bg: #2d2d28;
-    --toggle-border: #3d3d38;
+    --bg: #faf8f6;
+    --surface: #ffffff;
+    --border: #d8d4cc;
+    --text: #2c2824;
+    --text2: #5f5b54;
+    --text3: #8a867c;
+    --muted-bg: #f5f3ed;
+    --hero-bg1: #f3eafa;
+    --hero-bg2: #fef3e0;
+    --green: #6b2fa0;
+    --green-l: #f3eafa;
+    --green-d: #3d1a5c;
+    --gold: #d4780a;
+    --gold-l: #fef3e0;
+    --blue: #185fa5;
+    --blue-l: #e6f1fb;
+    --blue-d: #0c447c;
+    --red: #a32d2d;
+    --red-l: #fcebeb;
+    --purple: #6b2fa0;
+    --purple-l: #f3eafa;
+    --nav-bg: #ffffff;
+    --footer-bg: #2c2824;
+    --footer-text: #a8a498;
+    --footer-link: #c0a8e0;
+    --topbar-bg: #2c2824;
+    --topbar-text: #e8e4d8;
+    --table-hover: #faf8f0;
+    --thead-bg: #f5f3ed;
+    --copy-bg: #f3eafa;
+    --copy-hover: #e8d8f8;
+    --toggle-bg: #f5f3ed;
+    --toggle-border: #d8d4c8;
   }
 }
 
@@ -168,6 +168,10 @@ nav { background: var(--nav-bg); border-bottom: 1px solid var(--border); positio
 .nav-inner { max-width: 1100px; margin: 0 auto; padding: 12px 20px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; }
 .logo { font-size: 20px; font-weight: 700; color: var(--green); text-decoration: none; }
 .logo span { color: var(--gold); }
+
+/* Glow effects */
+.glow { text-shadow: 0 0 20px rgba(155,111,212,0.35); }
+.glow-strong { text-shadow: 0 0 30px rgba(155,111,212,0.5), 0 0 60px rgba(155,111,212,0.2); }
 .nav-right { display: flex; align-items: center; gap: 16px; }
 .nav-links { display: flex; gap: 24px; list-style: none; flex-wrap: wrap; }
 .nav-links a { color: var(--text2); text-decoration: none; font-size: 14px; font-weight: 500; }
