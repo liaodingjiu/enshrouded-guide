@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Enshrouded Server Guide 2026 — How to Host, Join & Configure Servers | Enshrouded Guides</title>
+<meta name="description" content="Complete Enshrouded server guide — how to set up a dedicated server, host a game for friends, configure server settings, fix connection issues, and hardware requirements.">
+<meta name="keywords" content="Enshrouded server, Enshrouded server hosting, Enshrouded dedicated server, Enshrouded multiplayer, Enshrouded join server, Enshrouded server settings, Enshrouded connection fix">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://enshroudedguides.com/server-guide.html">
+<meta property="og:title" content="Enshrouded Server Guide 2026 — How to Host, Join & Configure">
+<meta property="og:description" content="Set up a dedicated server, host for friends, fix connection issues. Complete Enshrouded multiplayer server guide.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://enshroudedguides.com/server-guide.html">
+<meta property="og:image" content="https://enshroudedguides.com/og-image.svg">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Enshrouded Server Guide 2026">
+<meta name="twitter:description" content="Host, join, and configure Enshrouded servers. Fix connection problems.">
+<meta name="twitter:image" content="https://enshroudedguides.com/og-image.svg">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="stylesheet" href="shared.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Enshrouded Server Guide 2026 — How to Host, Join & Configure Servers",
+  "description": "Complete Enshrouded server guide — set up a dedicated server, host for friends, configure settings, fix connection issues.",
+  "datePublished": "2026-07-13","dateModified": "2026-07-13",
+  "author": { "@type": "Organization", "name": "Enshrouded Guides" },
+  "publisher": { "@type": "Organization", "name": "Enshrouded Guides" },
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://enshroudedguides.com/server-guide.html" }
+}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
+  {"@type":"ListItem","position":1,"name":"Home","item":"https://enshroudedguides.com/"},
+  {"@type":"ListItem","position":2,"name":"Server Guide","item":"https://enshroudedguides.com/server-guide.html"}
+]}</script>
+<script type="text/javascript">(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "xk7tafc9j9");</script>
+</head>
+<body>
+
+<div class="top-bar">Enshrouded Server Guide 2026 — Updated <time datetime="2026-07-13">July 13, 2026</time>.</div>
+
+<nav aria-label="Main navigation">
+  <div class="nav-inner"><a href="index.html" class="logo">Enshrouded<span>Guides</span></a>
+    <div class="nav-right"><ul class="nav-links">
+      <li class="nav-dropdown"><button class="nav-dropdown-trigger" type="button">Start Here</button><ul class="nav-dropdown-menu">
+        <li><a href="beginner-guide.html">Beginner Guide</a></li><li><a href="base-building.html">Base Building</a></li><li><a href="boss-guide.html">Boss Guide</a></li><li><a href="water-guide.html">Water Guide</a></li></ul></li>
+      <li class="nav-dropdown"><button class="nav-dropdown-trigger" type="button">Database</button><ul class="nav-dropdown-menu">
+        <li><a href="best-skills.html">Best Skills Tier List</a></li><li><a href="best-weapons.html">Best Weapons Tier List</a></li><li><a href="builds/">Build Guides</a></li><li><span class="nav-coming-soon">Interactive Map <span class="nav-coming-soon-badge">Soon</span></span></li><li><span class="nav-coming-soon">Resource Spots <span class="nav-coming-soon-badge">Soon</span></span></li></ul></li>
+      <li class="nav-dropdown"><button class="nav-dropdown-trigger" type="button">FAQ</button><ul class="nav-dropdown-menu">
+        <li><span class="nav-coming-soon">Fix &amp; Performance <span class="nav-coming-soon-badge">Soon</span></span></li><li><span class="nav-coming-soon">NPC Unlock Guide <span class="nav-coming-soon-badge">Soon</span></span></li><li><a href="server-guide.html" class="active">Server Guide</a></li><li><a href="index.html#faq">Quick Answers</a></li></ul></li>
+    </ul><button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode"><span class="sun">☀️</span><span class="moon">🌙</span></button></div></div>
+</nav>
+
+<main class="container">
+<nav class="breadcrumb" aria-label="Breadcrumb"><a href="index.html">Home</a> / Server Guide</nav>
+
+<section class="hero">
+  <h1 class="glow-strong">Enshrouded Server Guide — Host, Join & Configure</h1>
+  <p>Everything you need to know about Enshrouded multiplayer servers. Set up a dedicated server, host a game for friends, fix connection issues, and optimize your server settings.</p>
+  <div class="hero-stats">
+    <div class="hero-stat"><div class="val">3</div><div class="lbl">Server Types</div></div>
+    <div class="hero-stat"><div class="val">16</div><div class="lbl">Max Players</div></div>
+    <div class="hero-stat"><div class="val">16GB</div><div class="lbl">RAM (Dedicated)</div></div>
+    <div class="hero-stat"><div class="val">1.0</div><div class="lbl">Cross-Play</div></div>
+  </div>
+</section>
+
+<nav class="toc" aria-label="Table of Contents"><h3>Table of Contents</h3><ol>
+  <li><a href="#types">Server Types — Which Is Right for You?</a></li>
+  <li><a href="#dedicated">How to Set Up a Dedicated Server</a></li>
+  <li><a href="#host">How to Host a Game for Friends</a></li>
+  <li><a href="#join">How to Join a Server</a></li>
+  <li><a href="#settings">Server Configuration Settings</a></li>
+  <li><a href="#troubleshooting">Common Connection Issues & Fixes</a></li>
+  <li><a href="#faq">Server FAQ</a></li>
+</ol></nav>
+
+<h2 class="glow" id="types"><span class="icon">🖥️</span> Server Types — Which Is Right for You?</h2>
+<p class="section-desc">Enshrouded supports three ways to play multiplayer. Choose based on your group size, budget, and technical comfort.</p>
+
+<div class="grid-3" style="margin-bottom:24px;">
+  <div class="card"><h3>🏠 Peer-to-Peer (Co-op)</h3>
+    <p style="font-size:14px;color:var(--text2);">The host player runs the game and others join through Steam friends. <strong>Free — no separate server needed.</strong> World progress is tied to the host's save file. Best for 2-4 friends who always play together.</p>
+    <p style="font-size:13px;color:var(--text3);margin-top:8px;"><strong>Max players:</strong> 4 (stable), up to 8<br><strong>Cost:</strong> Free<br><strong>Uptime:</strong> Host must be online</p></div>
+  <div class="card"><h3>🖥️ Dedicated Server</h3>
+    <p style="font-size:14px;color:var(--text2);">Runs 24/7 on a separate machine (your PC or a cloud VPS). Players can join anytime — the host doesn't need to be online. World persists independently. <strong>Best for larger groups or communities.</strong></p>
+    <p style="font-size:13px;color:var(--text3);margin-top:8px;"><strong>Max players:</strong> 16<br><strong>Cost:</strong> Your hardware or ~$15-30/mo for a VPS<br><strong>Uptime:</strong> 24/7</p></div>
+  <div class="card"><h3>☁️ Hosting Service</h3>
+    <p style="font-size:14px;color:var(--text2);">Pay a third-party provider to run the server for you. No setup required — they handle hardware, backups, and updates. <strong>Best for groups who want zero hassle.</strong> Providers like G-Portal and Nitrado support Enshrouded.</p>
+    <p style="font-size:13px;color:var(--text3);margin-top:8px;"><strong>Max players:</strong> 16<br><strong>Cost:</strong> $10-20/mo<br><strong>Uptime:</strong> 24/7 with support</p></div>
+</div>
+
+<h2 class="glow" id="dedicated"><span class="icon">🔧</span> How to Set Up a Dedicated Server</h2>
+<p class="section-desc">Step-by-step guide to running your own Enshrouded dedicated server on Windows or Linux.</p>
+
+<div class="prose">
+  <h3>Hardware Requirements</h3>
+  <table><thead><tr><th></th><th>Minimum</th><th>Recommended</th></tr></thead>
+    <tbody>
+      <tr><td><strong>CPU</strong></td><td>4 cores @ 3.0 GHz</td><td>6+ cores @ 3.5 GHz</td></tr>
+      <tr><td><strong>RAM</strong></td><td>8 GB</td><td>16 GB</td></tr>
+      <tr><td><strong>Storage</strong></td><td>20 GB SSD</td><td>50 GB NVMe SSD</td></tr>
+      <tr><td><strong>Network</strong></td><td>10 Mbps upload</td><td>25+ Mbps upload</td></tr>
+      <tr><td><strong>OS</strong></td><td>Windows 10 / Ubuntu 20.04</td><td>Windows Server 2022 / Ubuntu 22.04</td></tr>
+    </tbody></table>
+  <p style="font-size:13px;color:var(--text3);">RAM usage scales with player count. Budget ~1 GB per concurrent player. For a full 16-player server, 16 GB is strongly recommended.</p>
+
+  <h3>Step 1: Download the Dedicated Server Tool</h3>
+  <p>The Enshrouded Dedicated Server is a free tool available through <strong>SteamCMD</strong> (command-line) or the <strong>Steam Library</strong> (GUI).</p>
+  <ul>
+    <li><strong>Via Steam Library:</strong> Search "Enshrouded Dedicated Server" in your Steam Library tools section. Install like any other Steam tool — no game purchase required.</li>
+    <li><strong>Via SteamCMD:</strong> <code>steamcmd +login anonymous +app_update 2278520 validate +quit</code>. App ID 2278520 is the Enshrouded Dedicated Server.</li>
+  </ul>
+
+  <h3>Step 2: Configure Your Server</h3>
+  <p>After installation, find the server config file at <code>&lt;install_dir&gt;/enshrouded_server.json</code>. Key settings to configure on first launch:</p>
+  <ul>
+    <li><strong>name</strong> — Your server name as it appears in the server browser.</li>
+    <li><strong>password</strong> — Set a password (or leave blank for public). Public servers attract randoms — use a password for friend groups.</li>
+    <li><strong>saveDirectory</strong> — Where world data is stored. Use an SSD path for faster save/load times.</li>
+    <li><strong>maxPlayers</strong> — 1 to 16. Lower values use less RAM.</li>
+    <li><strong>port</strong> — Default 15636 (UDP). Must be port-forwarded on your router.</li>
+  </ul>
+
+  <h3>Step 3: Port Forwarding</h3>
+  <p>For players outside your local network to connect, forward these ports on your router:</p>
+  <ul>
+    <li><strong>UDP 15636</strong> — Game traffic (required)</li>
+    <li><strong>UDP 15637</strong> — Query port (required for server browser listing)</li>
+    <li><strong>TCP 8080</strong> — Optional: web-based admin panel (if configured)</li>
+  </ul>
+  <p>If you're using a cloud VPS, open these ports in your VPS firewall instead.</p>
+
+  <h3>Step 4: Launch and Verify</h3>
+  <p>Run the server executable. You should see console output confirming the world loaded and the server is listening on the configured port. Ask a friend to search for your server name in the Enshrouded server browser to verify it's visible. First launch generates the world — this can take 2-5 minutes depending on hardware.</p>
+</div>
+
+<h2 class="glow" id="host"><span class="icon">👥</span> How to Host a Game for Friends</h2>
+<p class="section-desc">The fastest way to play together — no extra software needed.</p>
+
+<div class="prose">
+  <ol>
+    <li><strong>Launch Enshrouded</strong> and load your save or create a new world.</li>
+    <li>Open the <strong>pause menu → Multiplayer → Host Game</strong>.</li>
+    <li>Set your session to <strong>Friends Only</strong> or <strong>Invite Only</strong> (public means anyone on Steam can join — not recommended unless you want randoms).</li>
+    <li>Invite friends via the <strong>Steam overlay</strong> (Shift+Tab → right-click friend → Invite to Game).</li>
+    <li>Friends join via Steam or the in-game server browser under the "Friends" tab.</li>
+  </ol>
+  <div class="tip-box"><strong>⚠️ Note:</strong> In peer-to-peer mode, <strong>world progress is saved on the host's machine only</strong>. If the host is offline, others cannot access the world. NPCs, base progress, and map exploration are all tied to the host's save. For persistent worlds accessible to everyone, use a dedicated server instead.</div>
+</div>
+
+<h2 class="glow" id="join"><span class="icon">🚪</span> How to Join a Server</h2>
+<p class="section-desc">Four ways to connect to an Enshrouded server.</p>
+
+<div class="grid-2">
+  <div class="card"><h3>📋 Server Browser</h3><p style="font-size:14px;color:var(--text2);">From the main menu: <strong>Play → Join Game → Server Browser</strong>. Browse the public list or filter by Friends/Favorites. Click a server name to see details (players online, ping, map progress) before joining.</p></div>
+  <div class="card"><h3>🔗 Direct Connect</h3><p style="font-size:14px;color:var(--text2);">If you have the server IP: <strong>Play → Join Game → Direct Connect</strong>. Enter the IP address and port (e.g., <code>192.168.1.100:15636</code>). This bypasses the server browser — useful if the server isn't publicly listed.</p></div>
+  <div class="card"><h3>👥 Steam Friends</h3><p style="font-size:14px;color:var(--text2);">If a friend is already in-game, right-click their name in Steam → <strong>Join Game</strong>. Enshrouded will launch and connect you directly. Works for both peer-to-peer and dedicated servers.</p></div>
+  <div class="card"><h3>📝 Server IP List</h3><p style="font-size:14px;color:var(--text2);">Community-maintained server lists on Reddit and Discord often post IP addresses of public dedicated servers. Copy the IP and use Direct Connect. Always check the server's rules before joining.</p></div>
+</div>
+
+<h2 class="glow" id="settings"><span class="icon">⚙️</span> Server Configuration Settings</h2>
+<p class="section-desc">Key parameters in enshrouded_server.json — what they do and recommended values.</p>
+
+<table><thead><tr><th>Setting</th><th>Default</th><th>Recommended</th><th>What It Does</th></tr></thead>
+<tbody>
+  <tr><td><code>name</code></td><td>"Enshrouded Server"</td><td>Choose a unique name</td><td>Displayed in the server browser</td></tr>
+  <tr><td><code>password</code></td><td>"" (empty)</td><td>Set for private groups</td><td>Empty = anyone can join. Set a password to restrict access.</td></tr>
+  <tr><td><code>maxPlayers</code></td><td>4</td><td>Match your group size</td><td>Max 16. Lower = less RAM usage.</td></tr>
+  <tr><td><code>port</code></td><td>15636</td><td>15636</td><td>Game port (UDP). Must match port forwarding rule.</td></tr>
+  <tr><td><code>queryPort</code></td><td>15637</td><td>15637</td><td>Server browser query port (UDP).</td></tr>
+  <tr><td><code>saveInterval</code></td><td>300</td><td>300 (5 min)</td><td>Seconds between auto-saves. Lower = safer but more disk I/O.</td></tr>
+  <tr><td><code>maxIdleTime</code></td><td>0 (unlimited)</td><td>1800 (30 min)</td><td>Seconds before kicking idle players. 0 = never kick.</td></tr>
+  <tr><td><code>backupCount</code></td><td>3</td><td>5</td><td>Number of auto-backup saves to keep. More = safer but more disk space.</td></tr>
+  <tr><td><code>logLevel</code></td><td>"info"</td><td>"info"</td><td>debug / info / warn / error. Debug generates large log files.</td></tr>
+</tbody></table>
+
+<h2 class="glow" id="troubleshooting"><span class="icon">🔧</span> Common Connection Issues & Fixes</h2>
+
+<div class="faq-list">
+  <details class="faq-item"><summary>Server not showing up in the browser</summary><div class="faq-a">
+    <p>The most common issue — your server is running but invisible to players.</p>
+    <p><strong>Causes & fixes:</strong></p>
+    <ul>
+      <li><strong>Query port not forwarded:</strong> Ensure UDP 15637 is forwarded/opened alongside UDP 15636. The browser uses the query port to discover servers.</li>
+      <li><strong>Server just started:</strong> It can take 2-5 minutes for a newly launched server to appear in the browser. Wait and refresh.</li>
+      <li><strong>Firewall blocking:</strong> Check Windows Firewall or iptables. Add an exception for the server executable and both UDP ports.</li>
+      <li><strong>Wrong region filter:</strong> Players should check their server browser region filter isn't excluding your server's region.</li>
+    </ul>
+  </div></details>
+  <details class="faq-item"><summary>"Connection timed out" when joining</summary><div class="faq-a">
+    <p>Player can see the server but can't connect.</p>
+    <p><strong>Fixes:</strong></p>
+    <ul>
+      <li>Verify the server's IP and port are correct (Direct Connect mode).</li>
+      <li>Check the server isn't full (maxPlayers reached).</li>
+      <li>If using a VPN, disable it — some VPNs interfere with UDP game traffic.</li>
+      <li>Server host should verify their router's NAT settings allow UDP traffic on port 15636.</li>
+    </ul>
+  </div></details>
+  <details class="faq-item"><summary>High latency / rubberbanding</summary><div class="faq-a">
+    <p>Players are connecting from far away or the server hardware is struggling.</p>
+    <p><strong>Fixes:</strong></p>
+    <ul>
+      <li>Choose a server location geographically close to most players.</li>
+      <li>Reduce maxPlayers — each player adds CPU and network load.</li>
+      <li>Check the server's CPU usage. If it's hitting 100%, upgrade hardware or reduce the player cap.</li>
+      <li>For peer-to-peer: the host closing other applications can help. Enshrouded is CPU-intensive on the host machine.</li>
+    </ul>
+  </div></details>
+  <details class="faq-item"><summary>World not saving / progress lost</summary><div class="faq-a">
+    <p>Players reconnect to find their base or inventory reverted.</p>
+    <p><strong>Fixes:</strong></p>
+    <ul>
+      <li>Check <code>saveInterval</code> in the config — default is 300 seconds (5 min). Reduce to 120 if you've had save losses.</li>
+      <li>Never kill the server process with task manager — always use the console <code>quit</code> or <code>stop</code> command to trigger a final save.</li>
+      <li>Ensure the <code>saveDirectory</code> path has write permissions. On Linux, the server user must own this directory.</li>
+    </ul>
+  </div></details>
+</div>
+
+<h2 class="glow" id="faq"><span class="icon">❓</span> Server FAQ</h2>
+<div class="faq-list">
+  <details class="faq-item"><summary>Does Enshrouded have official servers?</summary><div class="faq-a">No — Enshrouded does not provide official public servers. All multiplayer is either <strong>peer-to-peer hosting</strong> (one player hosts through their game) or <strong>player-run dedicated servers</strong>. Keen Games has not announced plans for official servers as of the 1.0 launch.</div></details>
+  <details class="faq-item"><summary>Can I transfer my single-player world to a dedicated server?</summary><div class="faq-a">Yes. Copy your save file from <code>%USERPROFILE%/Saved Games/Enshrouded/</code> to the dedicated server's <code>saveDirectory</code> path. The server will load your existing world data. Make a backup first — the save format must match the server version.</div></details>
+  <details class="faq-item"><summary>How much does an Enshrouded server cost?</summary><div class="faq-a">Three options: <strong>Free</strong> (peer-to-peer hosting), <strong>$15-30/month</strong> (cloud VPS like AWS EC2 t3.medium or Hetzner CX22), or <strong>$10-20/month</strong> (managed hosting like G-Portal). A VPS with 4 vCPUs and 16 GB RAM is the sweet spot for a 10-12 player server.</div></details>
+  <details class="faq-item"><summary>Is there cross-play between Steam and console?</summary><div class="faq-a"><strong>Yes — cross-play is confirmed for 1.0.</strong> PC (Steam), PS5, and Xbox Series X|S players can all play together on the same server. The server doesn't need special configuration — cross-play is handled automatically by the game client after the 1.0 update.</div></details>
+</div>
+
+<div class="hub-grid" style="margin:32px 0;"><h3 style="grid-column:1/-1;font-size:18px;margin-bottom:0;">Related Guides</h3>
+  <a href="beginner-guide.html" class="hub-card"><div class="hub-icon">📖</div><h3>Beginner Guide</h3><p>First 10 hours — play through with friends.</p></a>
+  <a href="builds/" class="hub-card"><div class="hub-icon">🧬</div><h3>Build Guides</h3><p>Best builds for co-op and solo play.</p></a>
+  <a href="updates.html" class="hub-card"><div class="hub-icon">📰</div><h3>Updates & Roadmap</h3><p>Cross-play arrives with 1.0 on October 15.</p></a>
+</div>
+
+<div class="feedback-box"><p><strong>Was this guide helpful?</strong></p><div class="feedback-btns"><button class="feedback-btn" onclick="handleFeedback('yes')">👍 Yes</button><button class="feedback-btn" onclick="handleFeedback('no')">👎 No</button></div></div>
+</main>
+
+<footer>
+  <p style="margin-bottom:12px"><a href="beginner-guide.html">Beginner Guide</a> &nbsp;|&nbsp;<a href="best-skills.html">Best Skills</a> &nbsp;|&nbsp;<a href="best-weapons.html">Best Weapons</a> &nbsp;|&nbsp;<a href="base-building.html">Base Building</a> &nbsp;|&nbsp;<a href="boss-guide.html">Boss Guide</a></p>
+  <p>Enshrouded Guides — The independent Enshrouded resource. Not affiliated with Keen Games.</p>
+  <p style="margin-top:8px">Enshrouded and all related content are trademarks of Keen Games GmbH.</p>
+  <p style="margin-top:8px"><a href="about.html">About</a> &nbsp;|&nbsp;<a href="privacy.html">Privacy Policy</a> &nbsp;|&nbsp;<a href="terms.html">Terms of Use</a> &nbsp;|&nbsp;<a href="contact.html">Contact</a> &nbsp;|&nbsp;<a href="sitemap.xml">Sitemap</a></p>
+</footer>
+<button class="back-top" id="backTop" aria-label="Back to top">↑</button>
+<script src="cookie-consent.js"></script>
+<script>(function(){var t=document.getElementById('themeToggle'),s=localStorage.getItem('enshrouded-theme');if(s)document.documentElement.setAttribute('data-theme',s);t.addEventListener('click',function(){var c=document.documentElement.getAttribute('data-theme'),n=(c==='dark')?'light':'dark';document.documentElement.setAttribute('data-theme',n);localStorage.setItem('enshrouded-theme',n);});var b=document.getElementById('backTop');window.addEventListener('scroll',function(){b.classList.toggle('visible',window.scrollY>500);});b.addEventListener('click',function(){window.scrollTo({top:0,behavior:'smooth'});});})();function handleFeedback(type){document.querySelectorAll('.feedback-btn').forEach(function(b){b.classList.remove('voted');});if(type==='yes')document.querySelector('.feedback-btns .feedback-btn:first-child').classList.add('voted');if(type==='no')document.querySelector('.feedback-btns .feedback-btn:last-child').classList.add('voted');if(window.clarity){window.clarity("event","feedback",type);}}</script>
+</body>
+</html>
