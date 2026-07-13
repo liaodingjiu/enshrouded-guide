@@ -1,9 +1,10 @@
-/* === PalGuide Cookie Consent & Analytics Manager === */
+/* === Enshrouded Guides Cookie Consent & Analytics === */
 (function() {
   'use strict';
 
-  var SITE_URL = 'palworldguides.com';
-  var GA_ID = 'G-8T3TKL3W4T';
+  // Replace with your Google Analytics 4 Measurement ID when ready
+  // (e.g. 'G-XXXXXXXXXX'). Leave empty to skip GA loading.
+  var GA_ID = '';
 
   function getCookie(name) {
     var match = document.cookie.match(new RegExp('(^| )' + name + '=([^;]+)'));
@@ -29,16 +30,15 @@
     window.gtag = gtag;
   }
 
-  var consent = getCookie('palguide-consent');
+  var consent = getCookie('enshrouded-guide-consent');
   if (consent === 'accepted') {
     loadAnalytics();
   } else if (consent !== 'declined') {
-    // No decision yet — show banner
     var banner = document.createElement('div');
     banner.className = 'cookie-banner visible';
     banner.id = 'cookieBanner';
     banner.innerHTML = '<div class="cookie-inner">' +
-      '<p>We use cookies to analyze traffic and serve personalized ads. By accepting, you agree to our <a href="privacy.html">Privacy Policy</a>.</p>' +
+      '<p>We use cookies for analytics (Microsoft Clarity) and to serve personalized ads. By accepting, you agree to our <a href="privacy.html">Privacy Policy</a>.</p>' +
       '<div class="cookie-btns">' +
         '<button class="cookie-decline" id="cookieDecline">Decline</button>' +
         '<button class="cookie-accept" id="cookieAccept">Accept</button>' +
@@ -48,13 +48,13 @@
     document.body.appendChild(banner);
 
     document.getElementById('cookieAccept').addEventListener('click', function() {
-      setCookie('palguide-consent', 'accepted', 365);
+      setCookie('enshrouded-guide-consent', 'accepted', 365);
       banner.style.display = 'none';
       loadAnalytics();
     });
 
     document.getElementById('cookieDecline').addEventListener('click', function() {
-      setCookie('palguide-consent', 'declined', 365);
+      setCookie('enshrouded-guide-consent', 'declined', 365);
       banner.style.display = 'none';
     });
   }
