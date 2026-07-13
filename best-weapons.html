@@ -53,12 +53,31 @@
     <a href="index.html" class="logo">Enshrouded<span>Guides</span></a>
     <div class="nav-right">
       <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="best-skills.html">Best Skills</a></li>
-        <li><a href="best-weapons.html">Best Weapons</a></li>
-        <li><a href="base-building.html">Base Building</a></li>
-        <li><a href="boss-guide.html">Boss Guide</a></li>
-        <li><a href="beginner-guide.html">Beginner Guide</a></li>
+        <li class="nav-dropdown">
+          <button class="nav-dropdown-trigger" type="button">Start Here</button>
+          <ul class="nav-dropdown-menu">
+            <li><a href="beginner-guide.html">Beginner Guide</a></li>
+            <li><a href="base-building.html">Base Building</a></li>
+            <li><a href="boss-guide.html">Boss Guide</a></li>
+          </ul>
+        </li>
+        <li class="nav-dropdown">
+          <button class="nav-dropdown-trigger" type="button">Database</button>
+          <ul class="nav-dropdown-menu">
+            <li><a href="best-skills.html">Best Skills Tier List</a></li>
+            <li><a href="best-weapons.html" class="active">Best Weapons Tier List</a></li>
+            <li><span class="nav-coming-soon">Build Guides <span class="nav-coming-soon-badge">Soon</span></span></li>
+            <li><span class="nav-coming-soon">Resource Spots <span class="nav-coming-soon-badge">Soon</span></span></li>
+          </ul>
+        </li>
+        <li class="nav-dropdown">
+          <button class="nav-dropdown-trigger" type="button">FAQ</button>
+          <ul class="nav-dropdown-menu">
+            <li><span class="nav-coming-soon">Fix & Performance <span class="nav-coming-soon-badge">Soon</span></span></li>
+            <li><span class="nav-coming-soon">NPC Unlock Guide <span class="nav-coming-soon-badge">Soon</span></span></li>
+            <li><a href="index.html#faq">Quick Answers</a></li>
+          </ul>
+        </li>
       </ul>
       <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode" title="Toggle dark mode">
         <span class="sun">☀️</span>

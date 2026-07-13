@@ -662,3 +662,160 @@ code {
   .map-legend { grid-template-columns: 1fr; }
   .map-container { padding: 1rem; }
 }
+
+/* === Dropdown Navigation === */
+
+/* Dropdown container — relative positioning anchors the menu */
+.nav-dropdown {
+  position: relative;
+}
+
+/* Dropdown trigger — clickable category label with arrow */
+.nav-dropdown-trigger {
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  color: var(--text2);
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  user-select: none;
+  background: none;
+  border: none;
+  padding: 0;
+  font-family: inherit;
+  line-height: inherit;
+}
+.nav-dropdown-trigger:hover {
+  color: var(--green);
+}
+.nav-dropdown-trigger::after {
+  content: '▾';
+  font-size: 10px;
+  margin-left: 2px;
+  transition: transform .15s;
+}
+.nav-dropdown:hover .nav-dropdown-trigger::after {
+  transform: rotate(180deg);
+}
+
+/* Dropdown menu panel */
+.nav-dropdown-menu {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: -8px;
+  min-width: 210px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 6px 0;
+  list-style: none;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-6px);
+  transition: opacity .15s, transform .15s, visibility .15s;
+  z-index: 110;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+  pointer-events: none;
+}
+
+/* Show on hover (desktop) and focus-within (mobile tap opens, then child link is focusable) */
+.nav-dropdown:hover .nav-dropdown-menu,
+.nav-dropdown:focus-within .nav-dropdown-menu {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+/* Dropdown menu items */
+.nav-dropdown-menu li {
+  list-style: none;
+}
+.nav-dropdown-menu a {
+  display: block;
+  padding: 8px 18px;
+  color: var(--text2);
+  font-size: 14px;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: color .15s, background .15s;
+}
+.nav-dropdown-menu a:hover {
+  color: var(--green);
+  background: var(--green-l);
+}
+
+/* Active page indicator — replaces the old inline style */
+.nav-links a.active,
+.nav-dropdown-menu a.active {
+  color: var(--green);
+  font-weight: 600;
+}
+
+/* Coming-soon placeholder items */
+.nav-coming-soon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 18px;
+  color: var(--text3);
+  font-size: 14px;
+  font-style: italic;
+  cursor: default;
+  user-select: none;
+}
+
+/* "Soon" badge on coming-soon items */
+.nav-coming-soon-badge {
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 600;
+  color: var(--text3);
+  background: var(--muted-bg);
+  border: 1px solid var(--border);
+  padding: 1px 6px;
+  border-radius: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-left: 8px;
+  flex-shrink: 0;
+}
+
+/* Make the dropdown trigger keyboard-focusable */
+.nav-dropdown-trigger:focus-visible {
+  outline: 2px solid var(--green);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* Responsive — compact on small screens */
+@media (max-width: 480px) {
+  .nav-links {
+    gap: 14px;
+  }
+  .nav-dropdown-trigger {
+    font-size: 13px;
+  }
+  .nav-dropdown-menu {
+    min-width: 180px;
+    left: -6px;
+  }
+  .nav-dropdown-menu a {
+    font-size: 13px;
+    padding: 7px 14px;
+  }
+  .nav-coming-soon {
+    font-size: 13px;
+    padding: 7px 14px;
+  }
+}
+
+/* Fix: [data-theme="light"] icon toggle — wasn't handled before */
+[data-theme="light"] .theme-toggle .sun {
+  display: none;
+}
+[data-theme="light"] .theme-toggle .moon {
+  display: block;
+}
