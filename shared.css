@@ -164,7 +164,7 @@ body {
 .top-bar a { color: var(--footer-link); text-decoration: none; }
 .top-bar a:hover { text-decoration: underline; }
 
-nav { background: var(--nav-bg); border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 100; }
+nav[aria-label="Main navigation"] { background: var(--nav-bg); border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 100; }
 .nav-inner { max-width: 1100px; margin: 0 auto; padding: 12px 20px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; }
 .logo { font-size: 20px; font-weight: 700; color: var(--green); text-decoration: none; }
 .logo span { color: var(--gold); }
