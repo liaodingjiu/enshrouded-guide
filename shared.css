@@ -155,7 +155,7 @@ body {
   background: var(--bg);
   color: var(--text);
   line-height: 1.7;
-  font-size: 15px;
+  font-size: 16px;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -165,16 +165,16 @@ body {
 .top-bar a:hover { text-decoration: underline; }
 
 nav[aria-label="Main navigation"] { background: var(--nav-bg); border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 100; }
-.nav-inner { max-width: 1100px; margin: 0 auto; padding: 12px 20px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; }
-.logo { font-size: 20px; font-weight: 700; color: var(--green); text-decoration: none; }
+.nav-inner { max-width: 1100px; margin: 0 auto; padding: 12px 20px; display: flex; align-items: center; flex-wrap: wrap; gap: 12px; }
+.logo { font-size: 20px; font-weight: 700; color: var(--green); text-decoration: none; flex-shrink: 0; }
 .logo span { color: var(--gold); }
 
 /* Glow effects */
 .glow { text-shadow: 0 0 20px rgba(155,111,212,0.35); }
 .glow-strong { text-shadow: 0 0 30px rgba(155,111,212,0.5), 0 0 60px rgba(155,111,212,0.2); }
-.nav-right { display: flex; align-items: center; gap: 16px; }
+.nav-right { display: flex; align-items: center; gap: 16px; flex: 1; }
 .nav-links { display: flex; gap: 24px; list-style: none; flex-wrap: wrap; }
-.nav-links a { color: var(--text2); text-decoration: none; font-size: 14px; font-weight: 500; }
+.nav-links a { color: var(--text2); text-decoration: none; font-size: 15px; font-weight: 500; }
 .nav-links a:hover { color: var(--green); }
 
 .theme-toggle {
@@ -183,6 +183,9 @@ nav[aria-label="Main navigation"] { background: var(--nav-bg); border-bottom: 1p
   border-radius: 20px;
   padding: 4px 4px;
   cursor: pointer;
+  margin-left: auto;
+  flex-shrink: 0;
+  margin-left: auto;
   font-size: 16px;
   line-height: 1;
   width: 36px; height: 36px;
@@ -239,7 +242,7 @@ nav[aria-label="Main navigation"] { background: var(--nav-bg); border-bottom: 1p
   display: flex; align-items: center; gap: 8px;
 }
 .section h2 .icon { font-size: 22px; }
-.section-desc { font-size: 14px; color: var(--text2); margin-bottom: 20px; }
+.section-desc { font-size: 15px; color: var(--text2); margin-bottom: 20px; }
 .section h3 { font-size: 18px; font-weight: 600; margin-bottom: 12px; }
 .section .sub-section { margin-top: 24px; }
 
@@ -259,7 +262,7 @@ nav[aria-label="Main navigation"] { background: var(--nav-bg); border-bottom: 1p
 }
 .card:hover { border-color: var(--green); }
 .card h3 { font-size: 16px; font-weight: 600; margin-bottom: 8px; }
-.card p { font-size: 14px; color: var(--text2); }
+.card p { font-size: 15px; color: var(--text2); }
 
 /* Pal card */
 .pal-card {
@@ -310,7 +313,7 @@ nav[aria-label="Main navigation"] { background: var(--nav-bg); border-bottom: 1p
 .tag-electric { background: #fdf5d6; color: #854f0b; }
 
 /* Tables */
-table { width: 100%; border-collapse: collapse; font-size: 14px; }
+table { width: 100%; border-collapse: collapse; font-size: 15px; }
 thead { background: var(--thead-bg); }
 th { text-align: left; padding: 10px 12px; font-weight: 600; font-size: 13px; color: var(--text2); border-bottom: 2px solid var(--border); cursor: default; }
 th.sortable { cursor: pointer; user-select: none; }
@@ -568,7 +571,7 @@ footer a:hover { text-decoration: underline; }
 .prose { font-size: 15px; line-height: 1.8; color: var(--text); }
 .prose p { margin-bottom: 16px; }
 .prose ul, .prose ol { margin-bottom: 16px; padding-left: 24px; }
-.prose li { margin-bottom: 8px; font-size: 14px; color: var(--text2); }
+.prose li { margin-bottom: 8px; font-size: 15px; color: var(--text2); }
 .prose strong { color: var(--text); }
 code {
   background: var(--muted-bg);
