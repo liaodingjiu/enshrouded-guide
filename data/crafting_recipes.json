@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "source": "Compiled from guide pages",
+    "confidence": "gameplay-derived — quantities estimated where not explicit",
+    "updated": "2026-07-18"
+  },
+  "recipes": [
+    {"id":"glider","name":"Glider","npc_id":"blacksmith","materials":[{"name":"Shroud Wood","quantity":8},{"name":"String","quantity":6},{"name":"Shroud Spores","quantity":2}],"crafting_station":"Blacksmith","guide_url":"/beginner-guide.html"},
+    {"id":"grappling-hook","name":"Grappling Hook","npc_id":"blacksmith","materials":[{"name":"Metal Scraps","quantity":4},{"name":"String","quantity":4},{"name":"Wood","quantity":2}],"crafting_station":"Blacksmith","guide_url":"/beginner-guide.html"},
+    {"id":"flame-altar-level-2","name":"Flame Altar Upgrade Lv.2","npc_id":null,"materials":[{"name":"Shroud Liquid","quantity":5},{"name":"Stone","quantity":10},{"name":"Wood","quantity":5}],"crafting_station":"Flame Altar","guide_url":"/beginner-guide.html"},
+    {"id":"flame-altar-level-3","name":"Flame Altar Upgrade Lv.3","npc_id":null,"materials":[{"name":"Shroud Liquid","quantity":10},{"name":"Shroud Spores","quantity":5},{"name":"Stone","quantity":15},{"name":"Wood","quantity":10}],"crafting_station":"Flame Altar","guide_url":"/beginner-guide.html"},
+    {"id":"summoning-staff","name":"Summoning Staff","npc_id":null,"materials":[{"name":"Twig","quantity":1}],"crafting_station":"Inventory (auto-recipe)","guide_url":"/npc-guide.html"},
+    {"id":"workbench","name":"Workbench","npc_id":null,"materials":[{"name":"Wood","quantity":5},{"name":"Nails","quantity":2}],"crafting_station":"Inventory","guide_url":"/beginner-guide.html"},
+    {"id":"stone-axe","name":"Stone Axe","npc_id":null,"materials":[{"name":"Wood","quantity":3},{"name":"Stone","quantity":3}],"crafting_station":"Workbench","guide_url":"/beginner-guide.html"},
+    {"id":"stone-pickaxe","name":"Stone Pickaxe","npc_id":null,"materials":[{"name":"Wood","quantity":3},{"name":"Stone","quantity":3}],"crafting_station":"Workbench","guide_url":"/beginner-guide.html"}
+  ]
+}

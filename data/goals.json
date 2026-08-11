@@ -1,0 +1,459 @@
+{
+  "_meta": {
+    "source": "Compound from enshroudedguides.com guide pages",
+    "confidence": "gameplay-derived — material quantities estimated from crafting tier where not explicitly stated",
+    "updated": "2026-07-18",
+    "total_goals": 18
+  },
+  "goals": [
+    {
+      "id": "radiant-paladin-armor",
+      "name": "Radiant Paladin Armor Set",
+      "category": "equipment",
+      "type": "armor-set",
+      "description": "Endgame heavy armor set that scales from level 13 to 25. One of only three scaling armor sets in the game. Found in gold chests throughout Albaneve Summits.",
+      "required_materials": [
+        {"name": "Iron Bars", "quantity": 20, "data_confidence": "estimated"},
+        {"name": "Leather", "quantity": 15, "data_confidence": "estimated"},
+        {"name": "Resin", "quantity": 5, "data_confidence": "estimated"}
+      ],
+      "required_npc_id": "blacksmith",
+      "required_flame_level": 5,
+      "min_level": 25,
+      "unlock_requirements": ["Reach Albaneve Summits","Upgrade Flame Altar to Level 5"],
+      "location": "Gold chests throughout Albaneve Summits (scales 13-25)",
+      "progression_steps": [
+        "Reach Level 13+ (scaling continues to 25)",
+        "Unlock Blacksmith (Springlands — rescue order #1)",
+        "Advance through Springlands → Revelwoods → Nomad Highlands → Kindlewastes → Albaneve Summits",
+        "Upgrade Flame Altar to Level 5",
+        "Farm gold chests in Albaneve Summits for Radiant Paladin pieces",
+        "Craft any missing pieces at Blacksmith if blueprint drops"
+      ],
+      "related_guide_urls": ["/armor-guide.html","/npc-guide.html","/map.html"],
+      "seo_slug": "radiant-paladin-armor"
+    },
+    {
+      "id": "sunpiercer-set",
+      "name": "Sunpiercer Armor Set",
+      "category": "equipment",
+      "type": "armor-set",
+      "description": "Fixed level 25 endgame heavy armor. Highest physical resist in the game (~250). Essential for tank builds at endgame.",
+      "required_materials": [
+        {"name": "Steel Bars", "quantity": 25, "data_confidence": "estimated"},
+        {"name": "Hardened Leather", "quantity": 20, "data_confidence": "estimated"}
+      ],
+      "required_npc_id": "blacksmith",
+      "required_flame_level": 5,
+      "min_level": 25,
+      "unlock_requirements": ["Reach Albaneve Summits","Upgrade Flame Altar to Level 5","Defeat Fell Dragon recommended"],
+      "location": "Gold chests in Albaneve Summits",
+      "progression_steps": [
+        "Reach Level 25",
+        "Advance to Albaneve Summits (final biome)",
+        "Farm gold chests in Albaneve Summits for Sunpiercer pieces",
+        "Defeat Fell Dragon for upgrade materials (optional but recommended)"
+      ],
+      "related_guide_urls": ["/armor-guide.html","/boss-guide.html"],
+      "seo_slug": "sunpiercer-armor"
+    },
+    {
+      "id": "wailing-blade",
+      "name": "Wailing Blade (Legendary)",
+      "category": "equipment",
+      "type": "weapon",
+      "description": "S-Tier Two-Handed Greatsword. Highest raw damage in the game, cleaves 3 targets per swing. Legendary version drops from Fell Dragon.",
+      "required_materials": [
+        {"name": "Dragon Scale", "quantity": 3, "data_confidence": "estimated"},
+        {"name": "Steel Bars", "quantity": 20, "data_confidence": "estimated"}
+      ],
+      "required_npc_id": "blacksmith",
+      "required_flame_level": 5,
+      "min_level": 30,
+      "unlock_requirements": ["Defeat Fell Dragon","Max Flame Altar Level"],
+      "location": "Fell Dragon drop (Kindlewastes - Dragon's Peak) or craft at Blacksmith",
+      "progression_steps": [
+        "Reach Level 25-30",
+        "Upgrade Flame Altar to max level",
+        "Travel to Kindlewastes — Dragon's Peak (-1400, 1600)",
+        "Defeat Fell Dragon (~15% drop rate for legendary version)",
+        "Alternatively craft Steel version at Blacksmith with Steel Bars + Hardened Leather",
+        "Upgrade to Legendary with Dragon Scale x3 + Steel x20"
+      ],
+      "related_guide_urls": ["/best-weapons.html","/boss-guide.html","/builds/melee-tank.html"],
+      "seo_slug": "wailing-blade"
+    },
+    {
+      "id": "ignited-bow",
+      "name": "Ignited Bow",
+      "category": "equipment",
+      "type": "weapon",
+      "description": "S-Tier Bow with fire arrows. Safest DPS weapon in the game — range + fire damage. Essential for Archer and Assassin builds.",
+      "required_materials": [
+        {"name": "Steel Bars", "quantity": 15, "data_confidence": "estimated"},
+        {"name": "Hardened Leather", "quantity": 10, "data_confidence": "estimated"},
+        {"name": "Fire Essence", "quantity": 5, "data_confidence": "estimated"}
+      ],
+      "required_npc_id": "hunter",
+      "required_flame_level": 4,
+      "min_level": 20,
+      "unlock_requirements": ["Reach Kindlewastes or Albaneve Summits","Flame Altar Level 4","Hunter rescued"],
+      "progression_steps": [
+        "Rescue Hunter (Springlands, rescue order #5)",
+        "Upgrade Flame Altar to Level 4",
+        "Collect Steel Bars from Kindlewastes nodes",
+        "Collect Hardened Leather from high-level beasts",
+        "Craft at Hunter workstation"
+      ],
+      "related_guide_urls": ["/best-weapons.html","/builds/archer-assassin.html"],
+      "seo_slug": "ignited-bow"
+    },
+    {
+      "id": "scorching-wand",
+      "name": "Scorching Wand",
+      "category": "equipment",
+      "type": "weapon",
+      "description": "A-Tier Magic Wand. Fireball AoE with good INT scaling. Mainhand weapon for Battlemage/Mage DPS builds.",
+      "required_materials": [
+        {"name": "Iron Bars", "quantity": 12, "data_confidence": "estimated"},
+        {"name": "Shroud Cores", "quantity": 5, "data_confidence": "estimated"},
+        {"name": "Fire Essence", "quantity": 3, "data_confidence": "estimated"}
+      ],
+      "required_npc_id": "alchemist",
+      "required_flame_level": 3,
+      "min_level": 15,
+      "unlock_requirements": ["Flame Altar Level 3","Alchemist rescued"],
+      "progression_steps": [
+        "Rescue Alchemist (Springlands, rescue order #2)",
+        "Upgrade Flame Altar to Level 3",
+        "Collect Iron Bars from Revelwoods/Nomad Highlands nodes",
+        "Collect Shroud Cores from Shroud enemies",
+        "Craft at Alchemist workstation"
+      ],
+      "related_guide_urls": ["/best-weapons.html","/builds/mage-dps.html"],
+      "seo_slug": "scorching-wand"
+    },
+    {
+      "id": "guardian-shield",
+      "name": "Guardian Shield",
+      "category": "equipment",
+      "type": "weapon",
+      "description": "A-Tier Shield. Best parry window and block stamina reduction. Essential for all sword-and-board and tank builds.",
+      "required_materials": [
+        {"name": "Steel Bars", "quantity": 15, "data_confidence": "estimated"},
+        {"name": "Hardened Leather", "quantity": 8, "data_confidence": "estimated"}
+      ],
+      "required_npc_id": "blacksmith",
+      "required_flame_level": 4,
+      "min_level": 18,
+      "unlock_requirements": ["Flame Altar Level 4","Blacksmith rescued"],
+      "progression_steps": [
+        "Rescue Blacksmith (Springlands, rescue order #1)",
+        "Upgrade Flame Altar to Level 4",
+        "Collect Steel Bars from Kindlewastes nodes",
+        "Craft at Blacksmith workstation"
+      ],
+      "related_guide_urls": ["/best-weapons.html","/builds/melee-tank.html"],
+      "seo_slug": "guardian-shield"
+    },
+    {
+      "id": "eagle-eye-set",
+      "name": "Eagle Eye Armor Set",
+      "category": "equipment",
+      "type": "armor-set",
+      "description": "Scaling medium armor set (level 13-25). Best endgame armor for Ranger and Assassin builds. Found in Albaneve Summits gold chests.",
+      "required_materials": [
+        {"name": "Leather", "quantity": 18, "data_confidence": "estimated"},
+        {"name": "Iron Bars", "quantity": 15, "data_confidence": "estimated"},
+        {"name": "Resin", "quantity": 5, "data_confidence": "estimated"}
+      ],
+      "required_npc_id": "hunter",
+      "required_flame_level": 5,
+      "min_level": 13,
+      "unlock_requirements": ["Reach Albaneve Summits","Flame Altar Level 5","Hunter rescued"],
+      "location": "Gold chests in Albaneve Summits (scales 13-25)",
+      "progression_steps": [
+        "Rescue Hunter (Springlands, rescue order #5)",
+        "Advance to Albaneve Summits",
+        "Upgrade Flame Altar to Level 5",
+        "Farm gold chests in Albaneve Summits for Eagle Eye pieces"
+      ],
+      "related_guide_urls": ["/armor-guide.html","/builds/archer-assassin.html"],
+      "seo_slug": "eagle-eye-armor"
+    },
+    {
+      "id": "hailcaster-set",
+      "name": "Hailcaster Armor Set",
+      "category": "equipment",
+      "type": "armor-set",
+      "description": "Fixed level 23 light armor. Best mage DPS armor before endgame. Found in Kindlewastes gold chests.",
+      "required_materials": [
+        {"name": "Iron Bars", "quantity": 15, "data_confidence": "estimated"},
+        {"name": "Leather", "quantity": 12, "data_confidence": "estimated"}
+      ],
+      "required_npc_id": "alchemist",
+      "required_flame_level": 4,
+      "min_level": 23,
+      "unlock_requirements": ["Reach Kindlewastes","Flame Altar Level 4"],
+      "location": "Gold chests in Kindlewastes",
+      "progression_steps": [
+        "Advance through Revelwoods → Nomad Highlands → Kindlewastes",
+        "Upgrade Flame Altar to Level 4",
+        "Farm gold chests in Kindlewastes for Hailcaster pieces"
+      ],
+      "related_guide_urls": ["/armor-guide.html","/builds/mage-dps.html"],
+      "seo_slug": "hailcaster-armor"
+    },
+    {
+      "id": "legendary-dragonbone-bow",
+      "name": "Dragonbone Bow (Legendary)",
+      "category": "equipment",
+      "type": "weapon",
+      "description": "Legendary bow dropped by Fell Dragon. Highest ranged DPS potential in the game. ~20% drop rate.",
+      "required_materials": [],
+      "required_npc_id": null,
+      "required_flame_level": 5,
+      "min_level": 30,
+      "unlock_requirements": ["Defeat Fell Dragon"],
+      "location": "Fell Dragon drop — Kindlewastes, Dragon's Peak (-1400, 1600)",
+      "progression_steps": [
+        "Reach Level 30",
+        "Upgrade Flame Altar to max level",
+        "Travel to Kindlewastes — Dragon's Peak (-1400, 1600)",
+        "Defeat Fell Dragon (~20% drop rate)",
+        "Repeat if not dropped (boss respawns after a few in-game days)"
+      ],
+      "related_guide_urls": ["/best-weapons.html","/boss-guide.html","/legendary-weapons.html"],
+      "seo_slug": "dragonbone-bow"
+    },
+    {
+      "id": "unlock-blacksmith",
+      "name": "Unlock Blacksmith",
+      "category": "progression",
+      "type": "npc-unlock",
+      "description": "The Blacksmith is the most important NPC — unlocks Glider, Grappling Hook, metal tools, and all weapon/armor crafting.",
+      "required_materials": [
+        {"name": "Summoning Staff", "quantity": 1, "data_confidence": "exact"}
+      ],
+      "required_npc_id": null,
+      "required_flame_level": 1,
+      "min_level": 1,
+      "unlock_requirements": ["Exit Cinder Vault","Place first Flame Altar"],
+      "location": "Ancient Vault - Blacksmith, north of Cinder Vault. Coordinates: (-150, 80)",
+      "progression_steps": [
+        "Exit Cinder Vault and commune with The Flame",
+        "Place your first Flame Altar",
+        "Craft a Summoning Staff (1 Twig — auto-recipe)",
+        "Travel north from the starting area to the Ancient Vault",
+        "Navigate the vault and rescue Oswald Anders",
+        "Return to base and use Summoning Staff to place the Blacksmith"
+      ],
+      "related_guide_urls": ["/npc-guide.html","/beginner-guide.html"],
+      "seo_slug": "unlock-blacksmith"
+    },
+    {
+      "id": "craft-glider",
+      "name": "Craft Glider",
+      "category": "progression",
+      "type": "crafting",
+      "description": "The Glider is the #1 priority item after the tutorial. Unlocked by the Blacksmith. Transforms exploration and survivability.",
+      "required_materials": [
+        {"name": "Shroud Wood", "quantity": 8, "data_confidence": "exact"},
+        {"name": "String", "quantity": 6, "data_confidence": "exact"},
+        {"name": "Shroud Spores", "quantity": 2, "data_confidence": "exact"}
+      ],
+      "required_npc_id": "blacksmith",
+      "required_flame_level": 1,
+      "min_level": 1,
+      "unlock_requirements": ["Rescue Blacksmith"],
+      "progression_steps": [
+        "Rescue Blacksmith (Ancient Vault north of Cinder Vault)",
+        "Enter Shroud zones and cut down Shroud trees for Shroud Wood",
+        "Kill Shroud enemies for Shroud Spores",
+        "Craft String from plant fibers at Workbench",
+        "Return to Blacksmith and craft the Glider"
+      ],
+      "related_guide_urls": ["/beginner-guide.html","/npc-guide.html"],
+      "seo_slug": "craft-glider"
+    },
+    {
+      "id": "grappling-hook",
+      "name": "Craft Grappling Hook",
+      "category": "progression",
+      "type": "crafting",
+      "description": "Essential mobility tool. Allows reaching elevated areas and crossing gaps. Unlocked after Blacksmith rescue.",
+      "required_materials": [
+        {"name": "Metal Scraps", "quantity": 4, "data_confidence": "exact"},
+        {"name": "String", "quantity": 4, "data_confidence": "exact"},
+        {"name": "Wood", "quantity": 2, "data_confidence": "estimated"}
+      ],
+      "required_npc_id": "blacksmith",
+      "required_flame_level": 1,
+      "min_level": 1,
+      "unlock_requirements": ["Rescue Blacksmith"],
+      "progression_steps": [
+        "Rescue Blacksmith",
+        "Collect Metal Scraps from broken structures and ruins",
+        "Craft String from plant fibers",
+        "Craft at Blacksmith workstation"
+      ],
+      "related_guide_urls": ["/beginner-guide.html"],
+      "seo_slug": "grappling-hook"
+    },
+    {
+      "id": "flame-altar-level-3",
+      "name": "Upgrade Flame Altar to Level 3",
+      "category": "progression",
+      "type": "upgrade",
+      "description": "Flame Altar Level 3 unlocks Revelwoods access, Iron crafting tier, and mid-game content. Critical progression milestone.",
+      "required_materials": [
+        {"name": "Shroud Liquid", "quantity": 10, "data_confidence": "estimated"},
+        {"name": "Shroud Spores", "quantity": 5, "data_confidence": "estimated"},
+        {"name": "Stone", "quantity": 15, "data_confidence": "estimated"},
+        {"name": "Wood", "quantity": 10, "data_confidence": "estimated"}
+      ],
+      "required_npc_id": null,
+      "required_flame_level": 2,
+      "min_level": 5,
+      "unlock_requirements": ["Flame Altar Level 2","Entered Shroud zones"],
+      "progression_steps": [
+        "Upgrade to Flame Altar Level 2 first (5 Shroud Liquid, 10 Stone, 5 Wood)",
+        "Farm Shroud Liquid from Shroud enemies",
+        "Farm Shroud Spores from Shroud enemies and plants",
+        "Gather Stone and Wood from anywhere",
+        "Interact with Flame Altar and select Upgrade"
+      ],
+      "related_guide_urls": ["/beginner-guide.html"],
+      "seo_slug": "flame-altar-level-3"
+    },
+    {
+      "id": "defeat-fell-warden",
+      "name": "Defeat Fell Warden",
+      "category": "progression",
+      "type": "boss",
+      "description": "First major boss. Springlands melee brute. Recommended level 6-7. Gateway to mid-game content.",
+      "required_materials": [
+        {"name": "Arrows", "quantity": 50, "data_confidence": "exact"},
+        {"name": "Healing Potions", "quantity": 5, "data_confidence": "estimated"}
+      ],
+      "required_npc_id": null,
+      "required_flame_level": 3,
+      "min_level": 6,
+      "unlock_requirements": ["Flame Altar Level 3","Basic Copper/Iron gear"],
+      "location": "Springlands - Warden's Grove (-320, 180)",
+      "progression_steps": [
+        "Reach Level 6-7 minimum",
+        "Craft or upgrade to Copper weapon or better",
+        "Cook food buffs (Grilled Meat for HP)",
+        "Bring 50+ arrows for safe ranged strategy",
+        "Place a temporary Flame Altar near the arena for respawn",
+        "Fight: dodge ground slam, attack after charge misses, kill adds"
+      ],
+      "related_guide_urls": ["/boss-guide.html","/beginner-guide.html"],
+      "seo_slug": "defeat-fell-warden"
+    },
+    {
+      "id": "defeat-fell-dragon",
+      "name": "Defeat Fell Dragon",
+      "category": "progression",
+      "type": "boss",
+      "description": "Endgame multi-phase boss. Kindlewastes. Requires max preparation. Drops legendary materials.",
+      "required_materials": [
+        {"name": "Greater Healing Potions", "quantity": 10, "data_confidence": "estimated"},
+        {"name": "Fire Resist Gear", "quantity": 1, "data_confidence": "exact"}
+      ],
+      "required_npc_id": null,
+      "required_flame_level": 5,
+      "min_level": 30,
+      "unlock_requirements": ["Max Flame Altar Level","Steel or Legendary tier gear","Fire resist armor set"],
+      "location": "Kindlewastes - Dragon's Peak (-1400, 1600)",
+      "progression_steps": [
+        "Reach Level 30",
+        "Max out Flame Altar level",
+        "Equip full fire resist gear",
+        "Craft 10+ Greater Healing Potions (Alchemist)",
+        "Cook max food buffs",
+        "Place temp Flame Altar near Dragon's Peak",
+        "Phase 1: Dodge fire breath, attack during recovery",
+        "Phase 2: Move constantly during flight phase, ranged attacks",
+        "Phase 3 (Enrage): Save burst damage, avoid lava pools"
+      ],
+      "related_guide_urls": ["/boss-guide.html","/legendary-weapons.html"],
+      "seo_slug": "defeat-fell-dragon"
+    },
+    {
+      "id": "base-building-castle",
+      "name": "Build a Castle Base",
+      "category": "building",
+      "type": "base",
+      "description": "Build a large fortified castle base. Choose a strategic location with natural defenses and resource access.",
+      "required_materials": [
+        {"name": "Stone", "quantity": 200, "data_confidence": "estimated"},
+        {"name": "Wood", "quantity": 150, "data_confidence": "estimated"},
+        {"name": "Iron Bars", "quantity": 30, "data_confidence": "estimated"}
+      ],
+      "required_npc_id": "carpenter",
+      "required_flame_level": 3,
+      "min_level": 10,
+      "unlock_requirements": ["Carpenter rescued","Flame Altar Level 3","Advanced building pieces unlocked"],
+      "location": "Recommended: Highland Mesa (950, -700) — one access path, natural fortress",
+      "progression_steps": [
+        "Rescue Carpenter (Springlands, rescue order #3)",
+        "Upgrade Flame Altar to Level 3 for expanded build area",
+        "Scout a defensible location (Highland Mesa recommended)",
+        "Place a new Flame Altar at the chosen location",
+        "Gather Stone, Wood, and Iron Bars in bulk",
+        "Build foundation, walls, and roof using advanced pieces from Carpenter",
+        "Add NPC rooms, crafting stations, and storage (Magic Chests from Carpenter)"
+      ],
+      "related_guide_urls": ["/base-building.html","/map.html","/npc-guide.html"],
+      "seo_slug": "build-castle-base"
+    },
+    {
+      "id": "unlock-all-core-npcs",
+      "name": "Unlock All 5 Core Craftspeople",
+      "category": "progression",
+      "type": "npc-unlock",
+      "description": "Rescue all five core NPCs: Blacksmith, Alchemist, Carpenter, Farmer, and Hunter. Unlocks the full crafting ecosystem.",
+      "required_materials": [],
+      "required_npc_id": null,
+      "required_flame_level": 3,
+      "min_level": 5,
+      "unlock_requirements": ["Exit Cinder Vault","Place first Flame Altar"],
+      "progression_steps": [
+        "1. Rescue Blacksmith — Ancient Vault north of Cinder Vault (-150, 80)",
+        "2. Rescue Alchemist — Ancient Vault west of Springlands Spire (-260, -40)",
+        "3. Rescue Carpenter — Ancient Vault southwest of Low Meadows Spire (-80, -120)",
+        "4. Rescue Farmer — Ancient Vault north of Springlands Spire (50, -180)",
+        "5. Rescue Hunter — Ancient Vault east of Springlands Spire (120, -40)",
+        "Build individual sheltered rooms for each NPC (walls + roof + bed required)"
+      ],
+      "related_guide_urls": ["/npc-guide.html","/beginner-guide.html"],
+      "seo_slug": "unlock-all-core-npcs"
+    },
+    {
+      "id": "backpack-upgrades",
+      "name": "Unlock All Backpack Upgrades",
+      "category": "progression",
+      "type": "upgrade",
+      "description": "Expand your inventory from the base size to Large Backpack (+24 slots). Requires Hunter and Bard rescues.",
+      "required_materials": [
+        {"name": "Leather", "quantity": 20, "data_confidence": "estimated"},
+        {"name": "Linen", "quantity": 15, "data_confidence": "estimated"}
+      ],
+      "required_npc_id": "hunter",
+      "required_flame_level": 4,
+      "min_level": 12,
+      "unlock_requirements": ["Hunter rescued (small/medium backpack)","Bard rescued (large backpack)"],
+      "progression_steps": [
+        "Rescue Hunter (Springlands, rescue order #5) for Small Backpack",
+        "Craft Small Backpack at Hunter (Tanning Station)",
+        "Upgrade to Medium Backpack with more Leather + Linen",
+        "Rescue Bard (Blackmire — requires Level 12+ and Revelwood Spire)",
+        "Craft Large Backpack (+24 slots) at Bard"
+      ],
+      "related_guide_urls": ["/npc-guide.html"],
+      "seo_slug": "backpack-upgrades"
+    }
+  ]
+}

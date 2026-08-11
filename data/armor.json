@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "source": "Derived from enshroudedguides.com/armor-guide.html and best-weapons.html",
+    "confidence": "gameplay-derived",
+    "updated": "2026-07-18",
+    "total_armor_sets": 12
+  },
+  "armor_sets": [
+    {"id":"rising-fighter","name":"Rising Fighter Set","type":"Heavy","fixed_level":5,"phys_resist":"~40","source":"Craft (Blacksmith)","best_for":"Early game melee","build_ids":["starter-build"],"guide_url":"/armor-guide.html"},
+    {"id":"adventurer","name":"Adventurer Set","type":"Medium","fixed_level":8,"phys_resist":"~55","source":"Craft (Blacksmith)","best_for":"Early game balanced","build_ids":["mage-dps","archer-assassin"],"guide_url":"/armor-guide.html"},
+    {"id":"guard-of-the-north","name":"Guard of the North Set","type":"Heavy","fixed_level":13,"phys_resist":"~100","source":"Gold chests (Springlands+)","best_for":"Mid-game melee","build_ids":["melee-tank"],"guide_url":"/armor-guide.html"},
+    {"id":"mercenary","name":"Mercenary Set","type":"Heavy","fixed_level":13,"phys_resist":"~110","source":"Craft (Blacksmith)","best_for":"Mid-game tank","build_ids":["melee-tank"],"guide_url":"/armor-guide.html"},
+    {"id":"elder-set","name":"Elder Set","type":"Medium","fixed_level":null,"level_range":"13-25","phys_resist":"Varies","source":"Gold chests (all biomes)","best_for":"All-rounder (scales with level)","build_ids":["melee-tank","archer-assassin"],"guide_url":"/armor-guide.html","scaling":true},
+    {"id":"quetzal-hunter","name":"Quetzal Hunter Set","type":"Light","fixed_level":18,"phys_resist":"~80","source":"Gold chests (Nomad Highlands+)","best_for":"Ranger","build_ids":["archer-assassin"],"guide_url":"/armor-guide.html"},
+    {"id":"tidecaller","name":"Tidecaller Set","type":"Light","fixed_level":18,"phys_resist":"~70","source":"Gold chests (Revelwood+)","best_for":"Mage","build_ids":["mage-dps"],"guide_url":"/armor-guide.html"},
+    {"id":"hailcaster","name":"Hailcaster Set","type":"Light","fixed_level":23,"phys_resist":"~90","source":"Gold chests (Kindlewastes+)","best_for":"Mage DPS","build_ids":["mage-dps"],"guide_url":"/armor-guide.html"},
+    {"id":"radiant-paladin","name":"Radiant Paladin Set","type":"Heavy","fixed_level":null,"level_range":"13-25","phys_resist":"Varies","source":"Gold chests (Albaneve Summits)","best_for":"Tank / Barbarian","build_ids":["melee-tank"],"guide_url":"/armor-guide.html","scaling":true},
+    {"id":"eagle-eye","name":"Eagle Eye Set","type":"Medium","fixed_level":null,"level_range":"13-25","phys_resist":"Varies","source":"Gold chests (Albaneve Summits)","best_for":"Ranger / Assassin","build_ids":["archer-assassin"],"guide_url":"/armor-guide.html","scaling":true},
+    {"id":"sunpiercer","name":"Sunpiercer Set","type":"Heavy","fixed_level":25,"phys_resist":"~250","source":"Gold chests (Albaneve Summits)","best_for":"Endgame tank","build_ids":["melee-tank"],"guide_url":"/armor-guide.html"},
+    {"id":"mountains-shadow","name":"Mountain's Shadow Set","type":"Heavy","fixed_level":25,"phys_resist":"~240","source":"Craft (Blacksmith, max Flame)","best_for":"Endgame melee","build_ids":["melee-tank"],"guide_url":"/armor-guide.html"}
+  ]
+}

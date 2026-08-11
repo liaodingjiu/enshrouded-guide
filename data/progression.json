@@ -1,0 +1,94 @@
+{
+  "_meta": {
+    "source": "Derived from enshroudedguides.com/beginner-guide.html and guide pages",
+    "confidence": "gameplay-derived",
+    "updated": "2026-07-18",
+    "total_stages": 4
+  },
+  "stages": [
+    {
+      "stage": "early",
+      "name": "Early Game",
+      "level_range": "1-10",
+      "playtime": "0-5 hours",
+      "biome": "springlands",
+      "gear_tier": "basic_copper",
+      "description": "Survival basics, tutorial, first NPC rescues, and establishing your first base.",
+      "recommended_actions": [
+        {"priority":1,"action":"Exit Cinder Vault","detail":"Follow the tutorial path out of the starting crypt. Commune with The Flame.","guide_url":"/beginner-guide.html","category":"exploration","npc_requirement":null},
+        {"priority":2,"action":"Place your first Flame Altar","detail":"Craft with 5 Stone. Choose a flat area outside the Shroud near wood, stone, and water.","guide_url":"/base-building.html","category":"building","npc_requirement":null},
+        {"priority":3,"action":"Craft basic tools","detail":"Stone Axe (wood cutting) + Stone Pickaxe (mining). Craft at Workbench (5 Wood, 2 Nails).","guide_url":"/beginner-guide.html","category":"crafting","npc_requirement":null},
+        {"priority":4,"action":"Build basic shelter","detail":"Walls + roof for NPCs to function. Does not need to be elaborate yet.","guide_url":"/base-building.html","category":"building","npc_requirement":null},
+        {"priority":5,"action":"Rescue the Blacksmith","detail":"Ancient Vault north of Cinder Vault (-150, 80). Craft Summoning Staff (1 Twig) first.","guide_url":"/npc-guide.html","category":"npc","npc_requirement":null},
+        {"priority":6,"action":"Craft Glider","detail":"8 Shroud Wood + 6 String + 2 Shroud Spores at Blacksmith. #1 priority item.","guide_url":"/beginner-guide.html","category":"crafting","npc_requirement":"blacksmith"},
+        {"priority":7,"action":"Craft Grappling Hook","detail":"4 Metal Scraps + 4 String + 2 Wood at Blacksmith. Unlocks vertical exploration.","guide_url":"/beginner-guide.html","category":"crafting","npc_requirement":"blacksmith"},
+        {"priority":8,"action":"Rescue the Alchemist","detail":"Ancient Vault west of Springlands Spire (-260, -40). Unlocks potions and alchemy.","guide_url":"/npc-guide.html","category":"npc","npc_requirement":null},
+        {"priority":9,"action":"Unlock Double Jump and Water Aura","detail":"First 3-4 skill points: Survivor (Double Jump, Dessert Stomach) → Healer (Water Aura, Battle Heal).","guide_url":"/best-skills.html","category":"skills","npc_requirement":null},
+        {"priority":10,"action":"Upgrade Flame Altar to Level 2","detail":"5 Shroud Liquid + 10 Stone + 5 Wood. Extends Shroud timer to 3-4 minutes.","guide_url":"/beginner-guide.html","category":"upgrade","npc_requirement":null}
+      ]
+    },
+    {
+      "stage": "mid",
+      "name": "Mid Game",
+      "level_range": "10-20",
+      "playtime": "5-15 hours",
+      "biome": "revelwoods",
+      "gear_tier": "iron",
+      "description": "Expanding your base, rescuing remaining NPCs, entering Revelwoods, and defeating your first bosses.",
+      "recommended_actions": [
+        {"priority":1,"action":"Rescue remaining core NPCs","detail":"Carpenter, Farmer, and Hunter. Each adds essential crafting stations and upgrades.","guide_url":"/npc-guide.html","category":"npc","npc_requirement":null},
+        {"priority":2,"action":"Upgrade Flame Altar to Level 3","detail":"10 Shroud Liquid + 5 Shroud Spores + 15 Stone + 10 Wood. Required for Iron crafting tier.","guide_url":"/beginner-guide.html","category":"upgrade","npc_requirement":null},
+        {"priority":3,"action":"Enter Revelwoods","detail":"Recommended level 5-6 minimum. New biome with harder enemies, Iron nodes, and hardwood.","guide_url":"/map.html","category":"exploration","npc_requirement":null},
+        {"priority":4,"action":"Establish a forward base in Revelwoods","detail":"Place a second Flame Altar near the biome border. Forest Edge (400, -50) or Lake Overlook (550, -220).","guide_url":"/base-building.html","category":"building","npc_requirement":null},
+        {"priority":5,"action":"Upgrade to Iron weapons and armor","detail":"Craft Noble Sword, Fell Axe, or Scorching Wand at Blacksmith. Upgrade armor to Guard of the North or Mercenary.","guide_url":"/best-weapons.html","category":"crafting","npc_requirement":"blacksmith"},
+        {"priority":6,"action":"Defeat Fell Warden","detail":"Springlands boss. Level 6-7 recommended. Bring 50+ arrows. Rewards: Warden's Chest Key, Runes.","guide_url":"/boss-guide.html","category":"boss","npc_requirement":null},
+        {"priority":7,"action":"Destroy Shroud Roots for skill points","detail":"Each Shroud Root grants +1 to +3 permanent skill points. Check map.html for coordinates.","guide_url":"/map.html","category":"exploration","npc_requirement":null},
+        {"priority":8,"action":"Unlock Blink and Updraft","detail":"Healer: Blink (teleport dodge). Assassin: Updraft (jump height). Core mobility skills.","guide_url":"/best-skills.html","category":"skills","npc_requirement":null},
+        {"priority":9,"action":"Defeat Wyvern","detail":"Revelwoods flying boss. Level 15 recommended. Use ranged weapons. Rewards: Wyvern Scale, Rare Gear.","guide_url":"/boss-guide.html","category":"boss","npc_requirement":null},
+        {"priority":10,"action":"Start a specialized build","detail":"Choose a build direction: Melee Tank, Mage DPS, or Archer Assassin. Begin allocating skills accordingly.","guide_url":"/builds/","category":"skills","npc_requirement":null}
+      ]
+    },
+    {
+      "stage": "late",
+      "name": "Late Game",
+      "level_range": "20-30",
+      "playtime": "15-30 hours",
+      "biome": "nomad-highlands",
+      "gear_tier": "steel",
+      "description": "High-level zones, Steel crafting tier, major bosses, and preparation for endgame content.",
+      "recommended_actions": [
+        {"priority":1,"action":"Enter Nomad Highlands","detail":"Level 20+ recommended. Rich in Iron, Copper, and rare materials. Highland Mesa base recommended (950, -700).","guide_url":"/map.html","category":"exploration","npc_requirement":null},
+        {"priority":2,"action":"Upgrade Flame Altar to Level 4","detail":"Required for Steel crafting tier and Kindlewastes access.","guide_url":"/beginner-guide.html","category":"upgrade","npc_requirement":null},
+        {"priority":3,"action":"Craft Steel-tier weapons","detail":"Wailing Blade, Ignited Bow, Guardian Shield — the S/A-Tier weapons require Steel.","guide_url":"/best-weapons.html","category":"crafting","npc_requirement":"blacksmith"},
+        {"priority":4,"action":"Defeat Matron","detail":"Revelwoods poison boss. Level 20. Bring Shroud Survival Flasks. Fast weapons recommended.","guide_url":"/boss-guide.html","category":"boss","npc_requirement":null},
+        {"priority":5,"action":"Defeat Scavenger Warlord","detail":"Nomad Highlands boss. Level 25. Kill adds first, save burst for berserk phase.","guide_url":"/boss-guide.html","category":"boss","npc_requirement":null},
+        {"priority":6,"action":"Rescue the Collector","detail":"Springlands Hollow Halls. Requires Level 4 Flame + all 5 core NPCs. Unlocks Shroud crafting.","guide_url":"/npc-guide.html","category":"npc","npc_requirement":null},
+        {"priority":7,"action":"Enter Kindlewastes","detail":"Level 25+ desert biome. Harsh conditions, rare water sources, endgame materials.","guide_url":"/map.html","category":"exploration","npc_requirement":null},
+        {"priority":8,"action":"Max out your build's core skills","detail":"Complete your 20-point skill allocation based on your chosen build. Full build guides at /builds/.","guide_url":"/builds/","category":"skills","npc_requirement":null},
+        {"priority":9,"action":"Farm for scaling armor sets","detail":"Elder Set, Radiant Paladin, Eagle Eye — these scale 13-25 and are worth farming now.","guide_url":"/armor-guide.html","category":"gear","npc_requirement":null},
+        {"priority":10,"action":"Rescue the Bard","detail":"Sunken Ancient City (Blackmire). Requires Level 12+ and Revelwood Spire. Unlocks Large Backpack (+24).","guide_url":"/npc-guide.html","category":"npc","npc_requirement":null}
+      ]
+    },
+    {
+      "stage": "endgame",
+      "name": "End Game",
+      "level_range": "30",
+      "playtime": "30+ hours",
+      "biome": "kindlewastes",
+      "gear_tier": "legendary",
+      "description": "Max level content. Fell Dragon, Hollow King, legendary farming, and build optimization.",
+      "recommended_actions": [
+        {"priority":1,"action":"Max out Flame Altar (Level 5)","detail":"Required for legendary crafting and endgame content access.","guide_url":"/beginner-guide.html","category":"upgrade","npc_requirement":null},
+        {"priority":2,"action":"Craft or farm Legendary weapons","detail":"Wailing Blade (Fell Dragon ~15%), Dragonbone Bow (~20%), Hollow King's Scepter (~10%).","guide_url":"/legendary-weapons.html","category":"gear","npc_requirement":"blacksmith"},
+        {"priority":3,"action":"Equip endgame armor","detail":"Sunpiercer (Heavy Tank), Eagle Eye L25 (Ranger), Hailcaster/Radiance (Mage).","guide_url":"/armor-guide.html","category":"gear","npc_requirement":null},
+        {"priority":4,"action":"Defeat Fell Dragon","detail":"Kindlewastes multi-phase boss. Max prep required: fire resist gear, 10+ Greater Healing Potions, max food buffs.","guide_url":"/boss-guide.html","category":"boss","npc_requirement":null},
+        {"priority":5,"action":"Defeat Hollow King","detail":"Shroud Depths secret boss. Wand/Bow recommended. Kill shadow clones immediately.","guide_url":"/boss-guide.html","category":"boss","npc_requirement":null},
+        {"priority":6,"action":"Farm legendary materials","detail":"Reclear bosses on respawn for Dragon Scales, legendary blueprints, and runes.","guide_url":"/legendary-weapons.html","category":"gear","npc_requirement":null},
+        {"priority":7,"action":"Optimize gems and food buffs","detail":"Slot optimal gems (Currents for mage, Cutting for melee, Corruption for assassin). Max 4 food buffs with Dessert Stomach.","guide_url":"/best-skills.html","category":"skills","npc_requirement":null},
+        {"priority":8,"action":"Complete all Shroud Roots","detail":"Every permanent skill point counts. Deep Shroud Root gives +3. Total ~184 skill points achievable.","guide_url":"/map.html","category":"exploration","npc_requirement":null},
+        {"priority":9,"action":"Build your dream base","detail":"With all NPCs, max Flame Altar, and abundant resources — build the ultimate fortress.","guide_url":"/base-building.html","category":"building","npc_requirement":"carpenter"},
+        {"priority":10,"action":"Prepare for future updates","detail":"Stockpile runes, materials, and max all NPCs. The 1.0 launch (October 2026) may add new content.","guide_url":"/updates.html","category":"other","npc_requirement":null}
+      ]
+    }
+  ]
+}

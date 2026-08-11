@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "source": "Derived from enshroudedguides.com/map.html",
+    "confidence": "gameplay-derived",
+    "updated": "2026-07-18"
+  },
+  "water_sources": [
+    {"name":"Starting Area Well","biome":"springlands","coordinates":"(20, 60)","type":"Well"},
+    {"name":"Springlands River","biome":"springlands","coordinates":"(-80, 100)","type":"River"},
+    {"name":"Revelwood Lake","biome":"revelwoods","coordinates":"(500, -200)","type":"Lake"},
+    {"name":"Highlands Spring","biome":"nomad-highlands","coordinates":"(900, -720)","type":"Spring"},
+    {"name":"Desert Oasis","biome":"kindlewastes","coordinates":"(-1200, 1400)","type":"Oasis"},
+    {"name":"Shroud Edge Pool","biome":"shroud-depths","coordinates":"(190, -1950)","type":"Pool (Shroud-tainted)"}
+  ]
+}

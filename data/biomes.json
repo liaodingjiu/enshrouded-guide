@@ -1,0 +1,60 @@
+{
+  "_meta": {
+    "source": "Derived from enshroudedguides.com/map.html and beginner-guide.html",
+    "confidence": "gameplay-derived",
+    "updated": "2026-07-18",
+    "total_biomes": 5
+  },
+  "biomes": [
+    {
+      "id": "springlands",
+      "name": "Springlands",
+      "progression_order": 1,
+      "level_range": "1-10",
+      "description": "Starting biome. Green meadows, ancient ruins, and the first Shroud zones.",
+      "key_resources": ["Wood","Stone","Copper","Shroud Wood","Metal Scraps"],
+      "key_npcs": ["blacksmith","alchemist","carpenter","farmer","hunter"],
+      "bosses": ["fell-warden"]
+    },
+    {
+      "id": "revelwoods",
+      "name": "Revelwoods",
+      "progression_order": 2,
+      "level_range": "10-20",
+      "description": "Dense forest biome with elevated terrain. Home to Wyvern and Matron.",
+      "key_resources": ["Iron","Hardwood","Leather","Shroud Spores"],
+      "key_npcs": [],
+      "bosses": ["wyvern","matron"]
+    },
+    {
+      "id": "nomad-highlands",
+      "name": "Nomad Highlands",
+      "progression_order": 3,
+      "level_range": "20-25",
+      "description": "Arid highlands with mesas and canyons. Rich in iron and copper deposits.",
+      "key_resources": ["Iron","Copper","Rare Materials","Shroud Cores"],
+      "key_npcs": [],
+      "bosses": ["scavenger-warlord"]
+    },
+    {
+      "id": "kindlewastes",
+      "name": "Kindlewastes",
+      "progression_order": 4,
+      "level_range": "25-30",
+      "description": "Desert wasteland with extreme temperatures. Endgame resources and the Fell Dragon.",
+      "key_resources": ["Steel Materials","Dragon Scales","Legendary Materials","Resin"],
+      "key_npcs": [],
+      "bosses": ["fell-dragon"]
+    },
+    {
+      "id": "shroud-depths",
+      "name": "Shroud Depths",
+      "progression_order": 5,
+      "level_range": "30",
+      "description": "Deepest Shroud zone. Poison atmosphere, deadliest enemies. Hollow King's domain.",
+      "key_resources": ["Shroud Materials","Ectoplasm","Ancient Relics"],
+      "key_npcs": [],
+      "bosses": ["hollow-king"]
+    }
+  ]
+}

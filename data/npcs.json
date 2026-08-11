@@ -1,0 +1,82 @@
+{
+  "_meta": {
+    "source": "Derived from enshroudedguides.com/npc-guide.html and map.html",
+    "confidence": "gameplay-derived",
+    "updated": "2026-07-18",
+    "total_npcs": 7
+  },
+  "npcs": [
+    {
+      "id": "blacksmith",
+      "name": "Blacksmith (Oswald Anders)",
+      "rescue_order": 1,
+      "biome": "springlands",
+      "location": "Ancient Vault - Blacksmith, north of Cinder Vault",
+      "coordinates": "(-150, 80)",
+      "key_unlocks": ["Glider","Grappling Hook","Metal Tools","Forge","Charcoal Kiln","Weapons","Armor"],
+      "guide_url": "/npc-guide.html"
+    },
+    {
+      "id": "alchemist",
+      "name": "Alchemist (Balthazar)",
+      "rescue_order": 2,
+      "biome": "springlands",
+      "location": "Ancient Vault - Alchemist, west of Springlands Spire",
+      "coordinates": "(-260, -40)",
+      "key_unlocks": ["Healing Potions","Shroud Survival Flask","Buff Elixirs","Staff Charges","Alchemy Station"],
+      "guide_url": "/npc-guide.html"
+    },
+    {
+      "id": "carpenter",
+      "name": "Carpenter (Cade Hawthorn)",
+      "rescue_order": 3,
+      "biome": "springlands",
+      "location": "Ancient Vault - Carpenter, southwest of Low Meadows Spire",
+      "coordinates": "(-80, -120)",
+      "key_unlocks": ["Magic Chests","Advanced Building","Kiln","Table Saw","Furniture"],
+      "guide_url": "/npc-guide.html"
+    },
+    {
+      "id": "farmer",
+      "name": "Farmer (Emily Fray)",
+      "rescue_order": 4,
+      "biome": "springlands",
+      "location": "Ancient Vault - Farmer, north of Springlands Spire",
+      "coordinates": "(50, -180)",
+      "key_unlocks": ["Seedbed","Farm Soil","Oven","Fireplace","Beehives","Animal Husbandry"],
+      "guide_url": "/npc-guide.html"
+    },
+    {
+      "id": "hunter",
+      "name": "Hunter (Athalan Skree)",
+      "rescue_order": 5,
+      "biome": "springlands",
+      "location": "Ancient Vault - Hunter, east of Springlands Spire",
+      "coordinates": "(120, -40)",
+      "key_unlocks": ["Backpack Upgrades","Ranged Armor","Drying Rack","Tanning Station","Loom","Arrows"],
+      "guide_url": "/npc-guide.html"
+    },
+    {
+      "id": "collector",
+      "name": "Collector (Alden Crowley)",
+      "rescue_order": 6,
+      "biome": "springlands",
+      "location": "Springlands Hollow Halls",
+      "coordinates": "(0, 0)",
+      "key_unlocks": ["Ectoplasm Press","Shroud-related Crafting"],
+      "guide_url": "/npc-guide.html",
+      "requirements": "Level 4 Flame + all 5 core craftspeople rescued"
+    },
+    {
+      "id": "bard",
+      "name": "Bard (Valory)",
+      "rescue_order": 7,
+      "biome": "blackmire",
+      "location": "Sunken Ancient City (Blackmire)",
+      "coordinates": "(0, 0)",
+      "key_unlocks": ["Instruments","Medium Backpack (+12 slots)","Large Backpack (+24 slots)"],
+      "guide_url": "/npc-guide.html",
+      "requirements": "Level 12+, Revelwood Spire activated"
+    }
+  ]
+}

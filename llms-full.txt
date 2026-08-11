@@ -1,0 +1,141 @@
+# Enshrouded Guides — Full Content Reference
+
+> EnshroudedGuides.com is an independent, player-tested resource for the survival action RPG Enshrouded by Keen Games. All guides are updated for 2026 (Update 8 and the 1.0 launch). The site covers skills, weapons, builds, bosses, base building, NPCs, and includes three interactive decision tools.
+
+## Site Overview
+
+- **Total Pages**: 60+ guides and interactive tools
+- **Content Type**: Player-tested game guides, tier lists, build recommendations, progression paths
+- **Interactive Tools**: Build Advisor (personalized build matching), Goal Planner (item/upgrade lookup), Adventure Planner (personalized progression engine)
+- **Data Confidence**: Material quantities derived from in-game crafting tiers; entries marked "estimated" are noted. All boss strategies tested in solo play.
+- **Last Updated**: July 2026
+
+---
+
+## Core Guides — Detailed Summaries
+
+### Beginner Walkthrough (beginner-guide.html)
+Complete first 10 hours guide from exiting Cinder Vault to defeating the Fell Warden. Key milestones: Place first Flame Altar, craft basic tools, build shelter, rescue the Blacksmith (priority #1 NPC), craft Glider and Grappling Hook (these transform exploration), unlock Double Jump and Water Aura (the two most impactful early skill points), upgrade Flame Altar to Level 2. The Glider and Grappling Hook should be obtained before any other activity — they fundamentally change movement and exploration. Early game takes 3-5 hours for new players; speedrunners can reach Revelwoods in under 2 hours.
+
+### Best Skills Tier List (best-skills.html)
+Every skill ranked S through D with priority picks. Most important early skills: Double Jump (#1 priority, Survivor tree), Water Aura (#2, passive AoE healing from Healer tree), Dessert Stomach (#3, 4th food buff slot), Battle Heal (#4, emergency burst healing), Blink (#5, teleport dodge replacing roll). Key synergy: Water Aura + Battle Heal provides sustained and emergency healing for every build. Skill point allocation guide: mobility first, sustain second, core mechanic third, damage fourth. Respec is cheap using Runes at any Flame Altar.
+
+### Best Weapons Ranked (best-weapons.html)
+All weapons compared with stats, tier rankings (S to D), and how to obtain each. Top weapons by category: Wailing Blade (2H Greatsword, S-Tier, ~15% drop from Fell Dragon), Dragonbone Bow (Bow, S-Tier, ~20% drop from Fell Dragon), Ignited Bow (Bow, A-Tier, craftable), Scorching Wand (Wand, A-Tier, craftable), Guardian Shield (Shield, S-Tier, best parry window), Noble Sword (1H Sword, A-Tier, Iron tier), Hollow King's Scepter (Staff, S-Tier, ~10% drop from Hollow King). Legendary weapons have ~10-20% drop rates from endgame bosses; both Fell Dragon and Hollow King respawn after a few in-game days.
+
+### Boss Solo Strategies (boss-guide.html)
+Complete solo strategies for all 6 major bosses. Boss order by difficulty: Fell Warden (Lv.6-7, Springlands, gateway boss), Wyvern (Lv.12-15, Revelwoods, flying), Matron (Lv.18-22, Nomad Highlands), Scavenger Warlord (Lv.20-25, Kindlewastes), Hollow King (Lv.25-30, Albaneve Summits, shadow clone mechanics), Fell Dragon (Lv.30+, Kindlewastes/Dragon's Peak, hardest boss, requires fire resist gear and 10+ Greater Healing Potions). Every boss scales with player count — solo bosses have less HP. Key preparation: always place a temporary Flame Altar near boss arenas (5 Stone cost is trivial), bring 50+ arrows even for melee builds (flying phases), cook max food buffs (4 with Dessert Stomach).
+
+### Base Building Guide (base-building.html)
+Best base locations for every stage. Early game: near wood, stone, and water sources in Springlands. Mid game: Revelwoods border for Iron access. Late game: Kindlewastes border for endgame materials. NPC housing requirements: each NPC needs a dedicated room with a bed, roof, and walls. Flame Altar placement strategy: your permanent base should be centrally located; use temporary Flame Altars (5 Stone each) near boss arenas and resource-rich areas. Flame Altar levels gate: Level 2 (basic upgrades), Level 3 (Iron tier, Revelwoods access), Level 4 (Steel tier, Kindlewastes), Level 5 (legendary crafting, endgame).
+
+### Armor Guide (armor-guide.html)
+How Enshrouded armor works — critical distinction between scaling and static sets. Scaling armor sets (Radiant Paladin, Eagle Eye) scale their stats from Level 13 to 25 as you level up, making them worth farming early. Static sets (Sunpiercer, fixed Lv.25) have fixed stats and are only optimal at endgame. Best armor by class: Melee Tank → Sunpiercer (Lv.25 Heavy, highest physical resist) or Radiant Paladin (scaling Heavy); Mage DPS → Hailcaster (Light) or Radiance (Light); Archer Assassin → Eagle Eye L25 (Medium scaling). Armor stats are dynamic — actual values depend on your current level for scaling sets.
+
+### NPC Unlock Guide (npc-guide.html)
+All 5 core NPCs with rescue order and exact locations. Priority order: Blacksmith (#1, unlocks Glider, Grappling Hook, all weapon crafting), Alchemist (#2, magic weapons, potions, Shroud protection), Carpenter (#3, building pieces, furniture), Farmer (#4, farming plots, food production), Hunter (#5, ranged weapons, animal resources). Each NPC requires a dedicated room at your base to function. Additional NPCs unlock later via exploration.
+
+### Map & Locations (map.html)
+Complete coordinate reference for all bosses, NPCs, resources, Shroud Roots, and base locations. Key coordinates: Fell Dragon at Dragon's Peak (-1400, 1600), Kindlewastes desert for endgame materials, Revelwoods for Iron nodes, Springlands for Copper. All coordinates verified in-game. Guide uses text-based coordinate system rather than interactive maps for fast reference.
+
+### Legendary Weapon Farm Guide (legendary-weapons.html)
+Best gold chest locations, drop rates, and farming routes. Key legendaries: Wailing Blade (Fell Dragon, ~15%), Dragonbone Bow (Fell Dragon, ~20%), Hollow King's Scepter (Hollow King, ~10%). Optimal farming route cycles through Albaneve Summits gold chests for scaling armor drops. Bosses respawn after a few in-game days. Always place a temporary Flame Altar near farming zones for efficient respawn loops.
+
+### Server Setup Guide (server-guide.html)
+Complete connection fix guide for Enshrouded servers. Covers: dedicated server setup, port forwarding configuration, multiplayer troubleshooting (server not showing up), hosting options (self-hosted vs dedicated), and common connection error fixes. Required ports: UDP 15636-15637 for game traffic.
+
+### Fix & Performance (fix-performance.html)
+Solutions for common issues: gravestone/death recovery (stuck on tree, infinite death loop), how to turn off loot drop on death, FPS optimization, graphics settings recommendations, and common bug workarounds. Performance optimization focuses on shadow quality and draw distance settings.
+
+---
+
+## Build Guides — Key Recommendations
+
+### Starter Build (builds/starter-build.html)
+First 20 skill points for new players. Uses Survivor + Healer trees. Priority: Double Jump → Water Aura → Dessert Stomach → Battle Heal → Blink → Runner → Sneak Attack. Equipment: Sword+Shield, Bow for pulling. This build is designed to be flexible — you won't need to respec until Level 10+ when you choose a specialization.
+
+### Melee Tank (builds/melee-tank.html)
+2H Greatsword Barbarian build. Trees: Tank (Iron Skin, Bulwark, Juggernaut, Last Stand) + Survivor (Water Aura, Battle Heal). Weapon: Wailing Blade (cleaves 3 targets per swing). Armor: Radiant Paladin (scaling) → Sunpiercer (Lv.25). Best for: boss face-tanking, solo play, players who prefer aggressive durability. Difficulty: Easy. Comes online at Level 8.
+
+### Mage DPS (builds/mage-dps.html)
+Wand+Staff Battlemage build. Trees: Mage (Arcane Empowerment, Pyromancy, Overcharge, Chain Hit) + Healer (Water Aura, Blink). Weapon: Scorching Wand + Shroud Staff. Armor: Hailcaster/Radiance. Best for: AoE clearing, group play, players who prefer ranged magic. Difficulty: Medium. Key insight: mage builds scale hardest with gear — an optimized mage deals 3-4x the damage of an unoptimized one.
+
+### Archer Assassin (builds/archer-assassin.html)
+Bow+Dagger stealth DPS build. Trees: Assassin (Ambush, Shadow Step, Slice and Dice, Fatal Precision) + Survivor. Weapon: Ignited Bow + Hunter's Crossbow (Dragonbone Bow endgame). Armor: Eagle Eye L25 (scaling Medium). Best for: single-target boss burst, highest DPS ceiling, players who enjoy high-skill gameplay. Difficulty: Hard.
+
+---
+
+## Interactive Tools
+
+### Build Advisor (tools/build-advisor/)
+Personalized build matching engine. Algorithm: 4-step wizard (playstyle → combat preference → game mode → progression stage) with weighted scoring (40% playstyle + 25% combat + 20% game mode + 15% progression). Returns primary recommendation + alternative builds ranked by score. No account needed — all processing client-side. Embedded data: all 4 builds with stats, skills, weapons, and armor.
+
+### Goal Planner (tools/goal-planner/)
+Search-based goal lookup covering 18 compound goals across equipment, building, and progression categories. Each goal includes: required materials (with quantities), NPC requirement, Flame Altar level, minimum player level, unlock prerequisites, location info, numbered step-by-step progression path, and related guide links. Category tabs filter goals by type. Embedded data: full goals + NPCs datasets.
+
+### Adventure Planner (tools/adventure-planner/)
+Personalized progression engine with 6-input form: level, biome, Flame Altar level, gear tier, unlocked NPCs, and current goal. Rule-based priority engine: stage detection (BIOME_STAGE mapping) → action filtering (NPC/gear/flame requirements) → goal-biased scoring (+25% boost for goal-related actions). Output: progress summary with stage name and stat grid, top 5 actions as numbered step-list, blocked actions with unlock requirements. Embedded data: full progression + NPCs datasets.
+
+---
+
+## Progression Paths
+
+### Beginner Progression
+Exit Cinder Vault → Place Flame Altar → Craft basic tools → Build shelter → Rescue Blacksmith → Craft Glider → Unlock Double Jump + Water Aura → Upgrade Flame Altar to Level 2 → Defeat Fell Warden (Level 6-7) → Enter Revelwoods.
+
+### Mid Game Progression (After Fell Warden)
+Upgrade to Iron weapons → Rescue remaining core NPCs (Alchemist, Carpenter, Farmer, Hunter) → Upgrade Flame Altar to Level 3 → Enter Revelwoods → Establish forward base → Defeat Wyvern (Level 12-15) → Specialize build by Level 12 → Enter Nomad Highlands.
+
+### Late Game Progression (Levels 20-30)
+Steel-tier weapons (Wailing Blade, Ignited Bow, Guardian Shield) → Flame Altar Level 4 → Nomad Highlands exploration → Defeat Matron (Level 18-22) → Enter Kindlewastes → Defeat Scavenger Warlord → Prepare for endgame.
+
+### Endgame Progression (Level 25+)
+Max Flame Altar (Level 5) → Clear Kindlewastes → Farm Steel-tier gear → Defeat Scavenger Warlord → Farm Albaneve Summits gold chests → Defeat Hollow King → Defeat Fell Dragon (hardest) → Farm legendary weapons → Optimize gems, food buffs, complete Shroud Roots.
+
+---
+
+## Key Game Data Reference
+
+### Biomes (Progression Order)
+1. Springlands (Levels 1-10, starting biome, Copper tier)
+2. Revelwoods (Levels 10-20, Iron tier)
+3. Nomad Highlands (Levels 15-25, Steel tier materials)
+4. Kindlewastes (Levels 25-35, desert, endgame materials)
+5. Albaneve Summits (Levels 25-35, snow, gold chests, endgame bosses)
+
+### Flame Altar Levels
+- Level 1: Starting altar, basic crafting, small build area
+- Level 2: Extended Shroud timer, basic upgrades
+- Level 3: Iron crafting tier, Revelwoods access
+- Level 4: Steel crafting tier, Kindlewastes access
+- Level 5: Legendary crafting, all content unlocked
+
+### Core NPCs (Rescue Order)
+1. Blacksmith — Weapons, Glider, Grappling Hook
+2. Alchemist — Magic weapons, potions, Shroud protection
+3. Carpenter — Building pieces, furniture, storage
+4. Farmer — Farming plots, seeds, food production
+5. Hunter — Ranged weapons, animal resources, traps
+
+### Boss Difficulty Order
+Fell Warden (easiest) → Wyvern → Matron → Scavenger Warlord → Hollow King → Fell Dragon (hardest)
+
+### Critical Tips
+- Always place temporary Flame Altars near boss arenas (5 Stone cost)
+- Always carry a bow even for melee builds (flying enemies)
+- Cook 4 food buffs before any challenging content (+20-30% effective power)
+- Double Jump is the #1 priority skill for every build
+- Never skip Flame Altar upgrades — each level gates crucial content
+- Scaling armor (Radiant Paladin, Eagle Eye) is worth farming early
+- Bosses respawn after a few in-game days
+- Respec is cheap (Runes at any Flame Altar)
+- Material quantities marked with ~ are estimates — gather a few extra
+
+---
+
+## About This Site
+
+Enshrouded Guides is an independent player resource. Not affiliated with Keen Games. Every skill rating, boss strategy, and weapon comparison is based on in-game testing and community consensus. Content updated for Update 8 and the 1.0 launch (2026). The three interactive tools (Build Advisor, Goal Planner, Adventure Planner) are designed as a decision layer above the written guides — helping players make personalized choices rather than reading generic recommendations.
+
+Contact: https://enshroudedguides.com/contact.html
+Sitemap: https://enshroudedguides.com/sitemap.xml

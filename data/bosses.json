@@ -1,0 +1,94 @@
+{
+  "_meta": {
+    "source": "Derived from enshroudedguides.com/boss-guide.html and map.html",
+    "confidence": "gameplay-derived",
+    "updated": "2026-07-18",
+    "total_bosses": 6
+  },
+  "bosses": [
+    {
+      "id": "fell-warden",
+      "name": "Fell Warden",
+      "biome": "springlands",
+      "min_level": 8,
+      "type": "Melee Brute",
+      "key_resistance": "Physical",
+      "recommended_weapons": ["Bow","Crossbow","Ranged"],
+      "attack_patterns": ["Ground slam (AoE shockwave)","Charge attack (linear)","Sweeping melee combo"],
+      "loot": ["Warden's Chest Key","Runes","Common/Uncommon Gear"],
+      "coordinates": "(-320, 180)",
+      "guide_url": "/boss-guide.html",
+      "tips": ["Bring 50+ arrows if using ranged","Keep distance, dodge slam","Attack after charge misses"]
+    },
+    {
+      "id": "wyvern",
+      "name": "Wyvern",
+      "biome": "revelwoods",
+      "min_level": 15,
+      "type": "Flying Dragon",
+      "key_resistance": "Fire",
+      "recommended_weapons": ["Bow","Staff","Ranged"],
+      "attack_patterns": ["Fire breath (cone)","Dive bomb","Tail sweep","Fireball projectile"],
+      "loot": ["Wyvern Scale","Flame Upgrade Materials","Rare Gear"],
+      "coordinates": "(450, -120)",
+      "guide_url": "/boss-guide.html",
+      "tips": ["Stay mobile — never stand still","Fire resist gear helps","Attack during landing recovery","Ranged is much safer than melee"]
+    },
+    {
+      "id": "matron",
+      "name": "Matron",
+      "biome": "revelwoods",
+      "min_level": 20,
+      "type": "Poison/Shroud",
+      "key_resistance": "Poison, Shroud",
+      "recommended_weapons": ["Rapier","Wand","Fast Weapons"],
+      "attack_patterns": ["Poison cloud (persistent AoE)","Shroud tendril grab","Spawning adds"],
+      "loot": ["Matron's Heart","Rare Crafting Materials","Mid-Tier Gear"],
+      "coordinates": "(680, -290)",
+      "guide_url": "/boss-guide.html",
+      "tips": ["Bring Shroud Survival Flasks","Clear adds immediately","Avoid poison clouds on ground","Fast weapons for DPS windows"]
+    },
+    {
+      "id": "scavenger-warlord",
+      "name": "Scavenger Warlord",
+      "biome": "nomad-highlands",
+      "min_level": 25,
+      "type": "Humanoid Dual-Wield",
+      "key_resistance": "Physical, Bleed",
+      "recommended_weapons": ["Greatsword","Staff","Magic"],
+      "attack_patterns": ["Dual-wield flurry","Leaping slam","Commanding adds","Berserk phase at 50% HP"],
+      "loot": ["Legendary Weapon Blueprint","High-Tier Gear"],
+      "coordinates": "(1100, -850)",
+      "guide_url": "/boss-guide.html",
+      "tips": ["Kill adds before boss","Save burst for berserk phase","Iron Skin + Bulwark highly recommended","Co-op makes this much easier"]
+    },
+    {
+      "id": "fell-dragon",
+      "name": "Fell Dragon",
+      "biome": "kindlewastes",
+      "min_level": 30,
+      "type": "Multi-Phase Endgame Boss",
+      "key_resistance": "Fire, Shroud Fire",
+      "recommended_weapons": ["Party: Ranged + Melee Mix"],
+      "attack_patterns": ["Phase 1: Fire breath + tail sweep","Phase 2: Flight + aerial fireballs","Phase 3: Enrage — faster, harder hits","Lava pools on ground"],
+      "loot": ["Dragon Scale","Legendary Armor Materials","Endgame Gear","Runes"],
+      "coordinates": "(-1400, 1600)",
+      "guide_url": "/boss-guide.html",
+      "tips": ["Max Flame Altar level required","Bring 10+ Greater Healing Potions","Fire resist gear mandatory","Place temp Flame Altar near arena for respawn","Co-op strongly recommended"]
+    },
+    {
+      "id": "hollow-king",
+      "name": "Hollow King",
+      "biome": "shroud-depths",
+      "min_level": 30,
+      "type": "Secret Boss",
+      "key_resistance": "Shroud, Magic",
+      "recommended_weapons": ["Wand","Bow","Magic/Ranged"],
+      "attack_patterns": ["Shroud beam (continuous)","Teleport strike","Shadow clone summon","AoE darkness explosion"],
+      "loot": ["King's Crown","Unique Weapon","Large Rune Rewards"],
+      "coordinates": "(200, -2100)",
+      "guide_url": "/boss-guide.html",
+      "tips": ["Shroud Survival Flask essential","Kill shadow clones immediately","Wand/bow for ranged safety","Darkness explosion has audio tell — dodge on sound"]
+    }
+  ]
+}

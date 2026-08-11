@@ -1,0 +1,24 @@
+{
+  "_meta": {
+    "source": "Derived from enshroudedguides.com/best-weapons.html",
+    "confidence": "gameplay-derived",
+    "updated": "2026-07-18",
+    "total_weapons": 14
+  },
+  "weapons": [
+    {"id":"wailing-blade","name":"Wailing Blade","type":"Two-Handed Sword","damage_type":"physical","tier":"S","crafting_tier":4,"best_for":["bosses","aoe"],"key_strength":"Highest raw damage in the game. Cleave hits 3 targets per swing.","build_ids":["melee-tank","starter-build"],"guide_url":"/best-weapons.html","legendary_source":"Fell Dragon","legendary_location":"Kindlewastes - Dragon's Peak","drop_rate":"~15%"},
+    {"id":"ignited-bow","name":"Ignited Bow","type":"Bow","damage_type":"fire","tier":"S","crafting_tier":4,"best_for":["solo-bosses","ranged"],"key_strength":"Fire arrows + range = safest DPS in the game.","build_ids":["archer-assassin","starter-build"],"guide_url":"/best-weapons.html"},
+    {"id":"noble-sword","name":"Noble Sword","type":"One-Handed Sword","damage_type":"physical","tier":"S","crafting_tier":3,"best_for":["general-pve","shield-pairing"],"key_strength":"Fast attack speed, pairs with shield for balanced offense/defense.","build_ids":["melee-tank","starter-build"],"guide_url":"/best-weapons.html"},
+    {"id":"scorching-wand","name":"Scorching Wand","type":"Magic Wand","damage_type":"fire","tier":"A","crafting_tier":3,"best_for":["ranged-aoe","magic"],"key_strength":"Fireball AoE with good INT scaling. Mainhand for Battlemage.","build_ids":["mage-dps"],"guide_url":"/best-weapons.html"},
+    {"id":"fell-axe","name":"Fell Axe","type":"Two-Handed Axe","damage_type":"physical","tier":"A","crafting_tier":3,"best_for":["high-hp-enemies","armor-break"],"key_strength":"Charged attack breaks enemy armor. Devastating against high-HP targets.","build_ids":["melee-tank"],"guide_url":"/best-weapons.html"},
+    {"id":"hunters-crossbow","name":"Hunter's Crossbow","type":"Crossbow","damage_type":"physical","tier":"A","crafting_tier":2,"best_for":["headshots","single-target"],"key_strength":"Highest single-shot damage of any ranged weapon.","build_ids":["archer-assassin"],"guide_url":"/best-weapons.html"},
+    {"id":"guardian-shield","name":"Guardian Shield","type":"Shield","damage_type":"physical","tier":"A","crafting_tier":4,"best_for":["tank","parry"],"key_strength":"Best parry window + block stamina reduction. Essential for sword-and-board.","build_ids":["melee-tank"],"guide_url":"/best-weapons.html"},
+    {"id":"scavenger-spear","name":"Scavenger Spear","type":"Spear","damage_type":"physical","tier":"B","crafting_tier":2,"best_for":["reach","mounted"],"key_strength":"Longest melee range. Safe poking from behind shield.","build_ids":[],"guide_url":"/best-weapons.html"},
+    {"id":"shroud-staff","name":"Shroud Staff","type":"Magic Staff","damage_type":"shroud","tier":"B","crafting_tier":3,"best_for":["crowd-control","poison"],"key_strength":"Slow + poison effects. Long cast times but powerful crowd control.","build_ids":["mage-dps"],"guide_url":"/best-weapons.html"},
+    {"id":"reinforced-mace","name":"Reinforced Mace","type":"One-Handed Mace","damage_type":"physical","tier":"B","crafting_tier":3,"best_for":["armored-enemies"],"key_strength":"Blunt damage ignores armor. Counters heavily armored foes.","build_ids":[],"guide_url":"/best-weapons.html"},
+    {"id":"throwing-daggers","name":"Throwing Daggers","type":"Thrown","damage_type":"physical","tier":"B","crafting_tier":2,"best_for":["pulling","finishing"],"key_strength":"Quick ranged option with no ammo cost. Great for pulling enemies.","build_ids":["archer-assassin"],"guide_url":"/best-weapons.html"},
+    {"id":"wooden-staff","name":"Wooden Staff","type":"Magic Staff","damage_type":"magic","tier":"C","crafting_tier":1,"best_for":["early-game-mage"],"key_strength":"Low damage but only early magic option. Replace with wand ASAP.","build_ids":[],"guide_url":"/best-weapons.html"},
+    {"id":"rusty-sword","name":"Rusty Sword","type":"One-Handed Sword","damage_type":"physical","tier":"C","crafting_tier":1,"best_for":["first-hour"],"key_strength":"Your starting weapon. Replace immediately after tutorial.","build_ids":[],"guide_url":"/best-weapons.html"},
+    {"id":"fists","name":"Fists","type":"Unarmed","damage_type":"physical","tier":"D","crafting_tier":0,"best_for":["never"],"key_strength":"No. Just no.","build_ids":[],"guide_url":"/best-weapons.html"}
+  ]
+}

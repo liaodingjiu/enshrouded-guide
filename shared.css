@@ -822,3 +822,373 @@ code {
 [data-theme="light"] .theme-toggle .moon {
   display: block;
 }
+
+/* =============================================
+   === Interactive Tool Widget Styles ===
+   ============================================= */
+
+/* Tool page wrapper */
+.tool-widget {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 24px;
+  margin-bottom: 24px;
+}
+
+/* Multi-step indicator */
+.tool-steps {
+  display: flex; gap: 0; margin-bottom: 24px;
+}
+.tool-step {
+  flex: 1; text-align: center;
+  padding: 12px 8px;
+  font-size: 13px; font-weight: 500;
+  color: var(--text3);
+  border-bottom: 3px solid var(--border);
+  transition: all .2s;
+  cursor: default; user-select: none;
+}
+.tool-step.active {
+  color: var(--green);
+  border-color: var(--green);
+}
+.tool-step.done {
+  color: var(--text2);
+  border-color: var(--green);
+  cursor: pointer;
+}
+.tool-step.done:hover { color: var(--green); }
+.tool-step-num {
+  display: inline-block;
+  width: 24px; height: 24px;
+  line-height: 24px; border-radius: 50%;
+  background: var(--muted-bg);
+  margin-right: 6px;
+  font-size: 12px; font-weight: 700;
+}
+.tool-step.active .tool-step-num { background: var(--green); color: #fff; }
+.tool-step.done .tool-step-num { background: var(--green); color: #fff; }
+
+/* Themed select dropdown */
+.tool-select {
+  width: 100%;
+  padding: 10px 14px;
+  font-size: 15px;
+  background: var(--bg);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  font-family: inherit;
+  cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23a8a498' fill='none' stroke-width='2'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 14px center;
+  padding-right: 36px;
+}
+.tool-select:focus {
+  border-color: var(--green);
+  outline: none;
+  box-shadow: 0 0 0 2px var(--green-l);
+}
+
+/* Option chip card grid (radio-style selection) */
+.option-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 10px;
+}
+.option-chip {
+  background: var(--muted-bg);
+  border: 2px solid var(--border);
+  border-radius: var(--radius);
+  padding: 14px 12px;
+  text-align: center;
+  cursor: pointer;
+  transition: all .15s;
+  font-size: 14px;
+  user-select: none;
+}
+.option-chip:hover { border-color: var(--green); }
+.option-chip.selected {
+  border-color: var(--green);
+  background: var(--green-l);
+  color: var(--green);
+  font-weight: 600;
+}
+.option-chip .chip-icon { font-size: 24px; display: block; margin-bottom: 6px; }
+.option-chip .chip-label { display: block; }
+
+/* Search box */
+.tool-search {
+  width: 100%;
+  padding: 12px 16px;
+  font-size: 16px;
+  background: var(--bg);
+  color: var(--text);
+  border: 2px solid var(--border);
+  border-radius: var(--radius);
+  font-family: inherit;
+}
+.tool-search:focus {
+  border-color: var(--green);
+  outline: none;
+}
+
+/* Result card */
+.result-card {
+  background: var(--green-l);
+  border: 2px solid var(--green);
+  border-radius: var(--radius);
+  padding: 24px;
+  margin-bottom: 16px;
+}
+.result-card h3 { color: var(--green); margin-bottom: 12px; font-size: 20px; }
+.result-card .result-meta {
+  display: flex; gap: 16px; flex-wrap: wrap;
+  margin-bottom: 12px;
+  font-size: 13px; color: var(--text2);
+}
+.result-meta-item {
+  display: flex; align-items: center; gap: 4px;
+}
+.result-label {
+  font-size: 11px; color: var(--text3); text-transform: uppercase; letter-spacing: 0.5px;
+}
+.result-value {
+  font-size: 14px; font-weight: 600; color: var(--text);
+}
+
+/* Numbered step list */
+.step-list {
+  list-style: none; padding: 0; margin: 0;
+  counter-reset: step;
+}
+.step-list li {
+  counter-increment: step;
+  padding: 12px 16px 12px 52px;
+  position: relative;
+  border-left: 2px solid var(--border);
+  margin-left: 16px;
+}
+.step-list li:last-child { border-left-color: transparent; }
+.step-list li::before {
+  content: counter(step);
+  position: absolute;
+  left: -18px; top: 8px;
+  width: 32px; height: 32px;
+  background: var(--green);
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 32px;
+  font-weight: 700;
+  font-size: 14px;
+}
+.step-list li .step-label {
+  font-weight: 600; margin-bottom: 4px; color: var(--text);
+}
+.step-list li .step-detail {
+  font-size: 13px; color: var(--text2); line-height: 1.5;
+}
+
+/* Goal category tabs */
+.goal-tabs {
+  display: flex; gap: 0; margin-bottom: 16px;
+  border-bottom: 2px solid var(--border);
+  overflow-x: auto;
+}
+.goal-tab {
+  padding: 10px 16px;
+  font-size: 14px; font-weight: 500;
+  color: var(--text2);
+  background: none; border: none;
+  cursor: pointer;
+  border-bottom: 3px solid transparent;
+  margin-bottom: -2px;
+  transition: all .15s;
+  font-family: inherit;
+  white-space: nowrap;
+}
+.goal-tab:hover { color: var(--green); }
+.goal-tab.active {
+  color: var(--green);
+  border-color: var(--green);
+}
+
+/* Material list badges */
+.material-list {
+  display: flex; flex-wrap: wrap; gap: 12px;
+  margin: 16px 0;
+}
+.material-item {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 8px 14px;
+  font-size: 13px;
+  display: flex; align-items: center; gap: 8px;
+}
+.material-qty {
+  font-weight: 700; color: var(--green);
+  font-size: 16px;
+}
+.material-name { color: var(--text2); }
+
+/* Submit / CTA button */
+.tool-submit {
+  display: inline-block;
+  padding: 14px 32px;
+  background: var(--green);
+  color: #fff;
+  border: none;
+  border-radius: var(--radius);
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  font-family: inherit;
+  transition: opacity .15s;
+}
+.tool-submit:hover { opacity: 0.9; }
+.tool-submit:disabled {
+  opacity: 0.4; cursor: not-allowed;
+}
+
+/* Back / reset button */
+.tool-back {
+  display: inline-flex; align-items: center; gap: 4px;
+  padding: 8px 16px;
+  background: var(--muted-bg);
+  color: var(--text2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  font-size: 13px; cursor: pointer;
+  font-family: inherit;
+}
+.tool-back:hover { border-color: var(--green); color: var(--green); }
+
+/* Autocomplete dropdown */
+.goal-dropdown-wrapper { position: relative; }
+.goal-dropdown {
+  position: absolute; top: 100%; left: 0; right: 0;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  max-height: 300px; overflow-y: auto;
+  z-index: 50;
+  display: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+.goal-dropdown.visible { display: block; }
+.goal-dropdown-item {
+  padding: 10px 14px;
+  cursor: pointer;
+  font-size: 14px;
+  border-bottom: 1px solid var(--border);
+  color: var(--text2);
+}
+.goal-dropdown-item:hover { background: var(--green-l); color: var(--green); }
+.goal-dropdown-item:last-child { border-bottom: none; }
+.goal-dropdown-empty {
+  padding: 12px 14px;
+  font-size: 13px; color: var(--text3);
+  text-align: center;
+}
+
+/* NPC multi-select checkboxes */
+.npc-check-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 8px;
+}
+.npc-check-item {
+  display: flex; align-items: center; gap: 8px;
+  padding: 8px 12px;
+  background: var(--muted-bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  font-size: 13px;
+  transition: all .15s;
+  user-select: none;
+}
+.npc-check-item:hover { border-color: var(--green); }
+.npc-check-item.checked {
+  border-color: var(--green);
+  background: var(--green-l);
+}
+.npc-check-item input[type="checkbox"] {
+  accent-color: var(--green);
+  width: 16px; height: 16px;
+}
+
+/* Tool section header */
+.tool-section-header {
+  font-size: 18px; font-weight: 700;
+  margin-bottom: 4px; color: var(--text);
+}
+.tool-section-desc {
+  font-size: 14px; color: var(--text2);
+  margin-bottom: 16px;
+}
+
+/* Build stat grid (for result display) */
+.build-stat-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 10px;
+  margin: 16px 0;
+}
+.build-stat {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 12px;
+  text-align: center;
+}
+.build-stat .stat-val {
+  font-size: 20px; font-weight: 700; color: var(--green);
+}
+.build-stat .stat-lbl {
+  font-size: 11px; color: var(--text3);
+  text-transform: uppercase; letter-spacing: 0.3px;
+  margin-top: 2px;
+}
+
+/* Alternative build card */
+.alt-build-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px;
+  margin-top: 16px;
+}
+.alt-build-card h4 { font-size: 16px; margin-bottom: 8px; color: var(--text); }
+
+/* Tool intro section */
+.tool-intro {
+  text-align: center;
+  margin-bottom: 28px;
+}
+.tool-intro h2 {
+  font-size: 20px; font-weight: 700;
+  margin-bottom: 8px;
+}
+.tool-intro p {
+  font-size: 14px; color: var(--text2);
+  max-width: 600px; margin: 0 auto;
+}
+
+/* Responsive for tool widgets */
+@media (max-width: 768px) {
+  .option-grid { grid-template-columns: repeat(2, 1fr); }
+  .tool-widget { padding: 16px; }
+  .tool-steps { flex-wrap: wrap; }
+  .tool-step { flex: unset; min-width: 80px; font-size: 11px; }
+  .tool-step-num { width: 20px; height: 20px; line-height: 20px; font-size: 10px; }
+  .result-card { padding: 16px; }
+  .npc-check-grid { grid-template-columns: 1fr; }
+  .build-stat-grid { grid-template-columns: repeat(2, 1fr); }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Enshrouded Guides",
+  "short_name": "EnshroudedGuides",
+  "description": "Player-tested Enshrouded guides — skills, weapons, builds, bosses, base building, and interactive tools.",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#1a1a18",
+  "background_color": "#1a1a18",
+  "icons": [
+    {
+      "src": "/favicon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "source": "Derived from enshroudedguides.com/map.html",
+    "confidence": "gameplay-derived",
+    "updated": "2026-07-18",
+    "total_spots": 9
+  },
+  "base_spots": [
+    {"id":"starter-plateau","name":"Starter Plateau","biome":"springlands","coordinates":"(0, 40)","why":"Flat, Shroud-free, centrally located, wood/stone/water nearby","best_for":"First Base"},
+    {"id":"river-bend","name":"River Bend","biome":"springlands","coordinates":"(-100, 120)","why":"Water on 3 sides, near Blacksmith and Hunter vaults","best_for":"Water-Focused Base"},
+    {"id":"forest-edge","name":"Forest Edge","biome":"revelwoods","coordinates":"(400, -50)","why":"Border biome transition, rich in hardwood","best_for":"Mid-Game Forward Base"},
+    {"id":"lake-overlook","name":"Lake Overlook","biome":"revelwoods","coordinates":"(550, -220)","why":"Elevated position, large lake, scenic views","best_for":"Scenic Main Base"},
+    {"id":"highland-mesa","name":"Highland Mesa","biome":"nomad-highlands","coordinates":"(950, -700)","why":"One access path, iron/copper nearby, natural fortress","best_for":"Fortress Base"},
+    {"id":"trading-post","name":"Trading Post","biome":"nomad-highlands","coordinates":"(1050, -800)","why":"Near Warlord arena and Shroud Roots","best_for":"Boss Farming Hub"},
+    {"id":"oasis-refuge","name":"Oasis Refuge","biome":"kindlewastes","coordinates":"(-1200, 1400)","why":"Rare water source in desert, survivable outpost","best_for":"Desert Survival Base"},
+    {"id":"dragons-approach","name":"Dragon's Approach","biome":"kindlewastes","coordinates":"(-1350, 1500)","why":"Near Fell Dragon lair, final staging point","best_for":"Endgame Staging Base"},
+    {"id":"shroud-edge-outpost","name":"Shroud Edge Outpost","biome":"shroud-depths","coordinates":"(180, -1900)","why":"Shroud boundary staging point","best_for":"Shroud Expedition Base"}
+  ]
+}

@@ -1,0 +1,31 @@
+# Enshrouded Guides
+> Player-tested Enshrouded guides — skills, weapons, builds, bosses, base building, and interactive tools. Updated for 2026.
+
+## Core Guides
+- [Beginner Walkthrough](https://enshroudedguides.com/beginner-guide.html): Complete first 10 hours guide, Cinder Vault to Fell Warden.
+- [Best Skills Tier List](https://enshroudedguides.com/best-skills.html): Every skill ranked S to D with priority picks and allocation paths.
+- [Best Weapons Ranked](https://enshroudedguides.com/best-weapons.html): All weapons compared with stats, how to get each one.
+- [Boss Solo Strategies](https://enshroudedguides.com/boss-guide.html): How to beat every boss solo — Fell Warden, Wyvern, Matron, Scavenger Warlord, Fell Dragon, Hollow King.
+- [Base Building Guide](https://enshroudedguides.com/base-building.html): Best locations, NPC housing, defense, Flame Altar placement.
+- [Armor Guide](https://enshroudedguides.com/armor-guide.html): How armor works, scaling vs static sets, best armor per class.
+- [NPC Unlock Guide](https://enshroudedguides.com/npc-guide.html): All craftspeople locations, rescue order, and unlocks.
+- [Map & Locations](https://enshroudedguides.com/map.html): Bosses, NPCs, resources, and coordinates.
+- [Water & Farming](https://enshroudedguides.com/water-guide.html): Well placement, water pouch, farming setup.
+- [Legendary Weapon Farm](https://enshroudedguides.com/legendary-weapons.html): Gold chest routes, drop rates, best legendary weapons.
+
+## Build Guides
+- [Starter Build](https://enshroudedguides.com/builds/starter-build.html): First 20 skill points for new players.
+- [Melee Tank Build](https://enshroudedguides.com/builds/melee-tank.html): 2H Greatsword Barbarian, unkillable solo boss build.
+- [Mage DPS Build](https://enshroudedguides.com/builds/mage-dps.html): Wand+Staff Battlemage, best ranged AoE.
+- [Archer Assassin Build](https://enshroudedguides.com/builds/archer-assassin.html): Bow+Dagger stealth DPS sniper.
+
+## Interactive Tools
+- [Build Advisor](https://enshroudedguides.com/tools/build-advisor/): Answer 4 questions — get your perfect build recommendation.
+- [Goal Planner](https://enshroudedguides.com/tools/goal-planner/): Search any item — get materials, NPC requirements, and unlock steps.
+- [Adventure Planner](https://enshroudedguides.com/tools/adventure-planner/): Enter your level and gear — get a personalized 5-step action plan.
+
+## Reference
+- [Server Setup Guide](https://enshroudedguides.com/server-guide.html): Dedicated server hosting, port forwarding, connection fixes.
+- [Fix & Performance](https://enshroudedguides.com/fix-performance.html): Death recovery, FPS optimization, common bugs.
+- [Updates & Roadmap](https://enshroudedguides.com/updates.html): 1.0 release date, patch notes, upcoming content.
+- [Palworld vs Enshrouded](https://enshroudedguides.com/palworld-vs-enshrouded.html): 2026 comparison — combat, building, exploration.

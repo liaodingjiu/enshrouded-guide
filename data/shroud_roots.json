@@ -1,0 +1,16 @@
+{
+  "_meta": {
+    "source": "Derived from enshroudedguides.com/map.html",
+    "confidence": "gameplay-derived",
+    "updated": "2026-07-18"
+  },
+  "shroud_roots": [
+    {"name":"Springlands Shroud Root","biome":"springlands","coordinates":"(-200, 100)","difficulty":"Easy","skill_points":"+1"},
+    {"name":"Western Shroud Root","biome":"springlands","coordinates":"(-350, 130)","difficulty":"Easy","skill_points":"+1"},
+    {"name":"Revelwood Shroud Root","biome":"revelwoods","coordinates":"(600, -260)","difficulty":"Medium","skill_points":"+1"},
+    {"name":"Eastern Deep Root","biome":"revelwoods","coordinates":"(720, -320)","difficulty":"Hard","skill_points":"+2"},
+    {"name":"Highlands Shroud Root","biome":"nomad-highlands","coordinates":"(1000, -780)","difficulty":"Medium","skill_points":"+1"},
+    {"name":"Wastes Shroud Root","biome":"kindlewastes","coordinates":"(-1300, 1480)","difficulty":"Hard","skill_points":"+2"},
+    {"name":"Deep Shroud Root","biome":"shroud-depths","coordinates":"(200, -2100)","difficulty":"Very Hard","skill_points":"+3"}
+  ]
+}
